@@ -50,6 +50,7 @@ class HorizonOrchestrator:
 
             merged_items = self.merge_cross_source_duplicates(all_items)
             
+            # --- БЫСТРЫЙ АНАЛИЗ ---
             analyzed_items = await self._analyze_content(merged_items)
             self.console.print(f"🤖 Analyzed {len(analyzed_items)} items with AI\n")
 
@@ -63,6 +64,7 @@ class HorizonOrchestrator:
             deduped_items = self.merge_topic_duplicates(important_items)
             important_items = deduped_items
 
+            # --- БЫСТРОЕ ОБОГАЩЕНИЕ ---
             await self._enrich_important_items(important_items)
 
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -137,15 +139,6 @@ class HorizonOrchestrator:
         self.console.print(f"🔍 Fetching from {name}...")
         return await scraper.fetch(since)
 
-    @staticmethod
-    def _sub_source_label(item: ContentItem) -> str:
-        meta = item.metadata
-        if meta.get("subreddit"): return f"r/{meta['subreddit']}"
-        if meta.get("feed_name"): return meta["feed_name"]
-        if meta.get("channel"): return f"@{meta['channel']}"
-        if meta.get("repo"): return meta["repo"]
-        return item.author or "unknown"
-
     def merge_cross_source_duplicates(self, items: List[ContentItem]) -> List[ContentItem]:
         def normalize_url(url: str) -> str:
             parsed = urlparse(str(url))
@@ -167,54 +160,22 @@ class HorizonOrchestrator:
             merged.append(primary)
         return merged
 
-    @staticmethod
-    def _title_tokens(title: str) -> set:
-        tokens = set()
-        for w in re.findall(r'[a-zA-Z]{3,}', title):
-            tokens.add(w.lower())
-        return tokens
-
-    @staticmethod
-    def _merge_item_content(primary: ContentItem, secondary: ContentItem) -> None:
-        if not secondary.content or secondary.content in (primary.content or ""): return
-        primary.content = (primary.content or "") + f"\n\n--- From {secondary.source_type.value} ---\n{secondary.content}"
-
     def merge_topic_duplicates(self, items: List[ContentItem], threshold: float = 0.33) -> List[ContentItem]:
         return items 
 
     async def _enrich_important_items(self, items: List[ContentItem]) -> None:
         if not items: return
-        self.console.print("📚 Enriching with background knowledge (slow mode)...")
+        self.console.print("📚 Enriching with background knowledge...")
         ai_client = create_ai_client(self.config.ai)
         enricher = ContentEnricher(ai_client)
-        
-        for i, item in enumerate(items):
-            try:
-                await enricher.enrich_batch([item])
-            except Exception:
-                pass
-            if i < len(items) - 1:
-                await asyncio.sleep(5)
+        await enricher.enrich_batch(items)
         self.console.print(f"   Enriched {len(items)} items\n")
 
     async def _analyze_content(self, items: List[ContentItem]) -> List[ContentItem]:
-        self.console.print("🤖 Analyzing content with AI (slow mode)...")
+        self.console.print("🤖 Analyzing content with AI...")
         ai_client = create_ai_client(self.config.ai)
         analyzer = ContentAnalyzer(ai_client)
-        
-        results = []
-        for i, item in enumerate(items):
-            self.console.print(f"   [{i+1}/{len(items)}] Analyzing: {item.title[:50]}...")
-            try:
-                res = await analyzer.analyze_batch([item])
-                results.extend(res)
-            except Exception as e:
-                self.console.print(f"   [red]Skipped: {e}[/red]")
-            
-            if i < len(items) - 1:
-                await asyncio.sleep(5)
-                
-        return results
+        return await analyzer.analyze_batch(items)
 
     async def _generate_summary(self, items: List[ContentItem], date: str, total_fetched: int, language: str = "en") -> str:
         summarizer = DailySummarizer()
