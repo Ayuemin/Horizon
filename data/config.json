@@ -1,9 +1,10 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "gemini",
-    "model": "gemini-1.5-flash",
-    "api_key_env": "GOOGLE_API_KEY",
+    "provider": "openai",
+    "model": "meta-llama/llama-3.3-70b-instruct:free",
+    "api_key_env": "OPENROUTER_API_KEY",
+    "base_url": "https://openrouter.ai/api/v1",
     "temperature": 0.3
   },
   "sources": {
@@ -11,9 +12,7 @@
       { "name": "The Verge", "url": "https://www.theverge.com/rss/gadgets/index.xml" },
       { "name": "9to5Google", "url": "https://9to5google.com/feed/" }
     ],
-    "hackernews": { "enabled": true, "fetch_top_stories": 15, "min_score": 100 },
-    "reddit": { "enabled": false },
-    "telegram": { "enabled": false }
+    "hackernews": { "enabled": true, "fetch_top_stories": 15, "min_score": 100 }
   },
   "filtering": {
     "ai_score_threshold": 3.0,
