@@ -1,25 +1,22 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "openai",
-    "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
-    "api_key_env": "OPENROUTER_API_KEY",
-    "base_url": "https://openrouter.ai/api/v1"
+    "provider": "gemini",
+    "model": "gemini-1.5-flash",
+    "api_key_env": "GOOGLE_API_KEY",
+    "temperature": 0.3
   },
   "sources": {
     "rss": [
       { "name": "The Verge", "url": "https://www.theverge.com/rss/gadgets/index.xml" },
-      { "name": "9to5Google", "url": "https://9to5google.com/feed/" },
-      { "name": "TechCrunch", "url": "https://techcrunch.com/feed/" },
-      { "name": "Wired", "url": "https://www.wired.com/feed/category/gear/latest/rss" },
-      { "name": "Hacker News", "url": "https://news.ycombinator.com/rss" }
+      { "name": "9to5Google", "url": "https://9to5google.com/feed/" }
     ],
-    "reddit": {
-      "enabled": false
-    }
+    "hackernews": { "enabled": true, "fetch_top_stories": 15, "min_score": 100 },
+    "reddit": { "enabled": false },
+    "telegram": { "enabled": false }
   },
   "filtering": {
-    "ai_score_threshold": 4.0,
+    "ai_score_threshold": 3.0,
     "time_window_hours": 24
   },
   "summary": {
