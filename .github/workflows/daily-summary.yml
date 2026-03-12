@@ -2,7 +2,7 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 9 * * *' # Запуск каждый день в 9 утра по UTC
+    - cron: '0 6 * * *' # Запуск каждый день в 6 утра по UTC
   workflow_dispatch: # Кнопка ручного запуска
 
 jobs:
