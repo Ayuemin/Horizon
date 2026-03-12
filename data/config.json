@@ -4,22 +4,33 @@
     "provider": "openai",
     "model": "gpt-4o-mini",
     "api_key_env": "NANOGPT_API_KEY",
-    "base_url": "https://nano-gpt.com/api/v1"
+    "base_url": "https://nano-gpt.com/api/v1",
+    "languages": ["ru"]
   },
   "sources": {
     "rss": [
-      { "name": "The Verge", "url": "https://www.theverge.com/rss/gadgets/index.xml" },
-      { "name": "9to5Google", "url": "https://9to5google.com/feed/" },
+      { "name": "Phoronix (Linux/OSS)", "url": "https://www.phoronix.com/phoronix-rss.php" },
+      { "name": "AlternativeTo (Software)", "url": "https://alternativeto.net/news/feed/" },
+      { "name": "It's FOSS", "url": "https://itsfoss.com/rss/" },
+      { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index" },
+      { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
+      { "name": "The Register", "url": "https://www.theregister.com/headlines.rss" },
+      { "name": "Neowin", "url": "https://www.neowin.net/news/rss/" },
+      { "name": "Android Central", "url": "https://www.androidcentral.com/feed" },
       { "name": "TechCrunch", "url": "https://techcrunch.com/feed/" }
     ],
-    "hackernews": { "enabled": true, "fetch_top_stories": 15, "min_score": 100 }
+    "hackernews": { 
+      "enabled": true, 
+      "fetch_top_stories": 30, 
+      "min_score": 200 
+    }
   },
   "filtering": {
-    "ai_score_threshold": 3.0,
+    "ai_score_threshold": 7.0,
     "time_window_hours": 24
   },
   "summary": {
     "language": "ru",
-    "detail_level": "medium"
+    "detail_level": "high"
   }
 }
