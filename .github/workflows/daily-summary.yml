@@ -35,6 +35,7 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NANOGPT_API_KEY: ${{ secrets.NANOGPT_API_KEY }}
         run: uv run horizon --hours 48
 
       - name: Set current date as environment variable
