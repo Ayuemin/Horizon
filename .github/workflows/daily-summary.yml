@@ -1,52 +1,50 @@
 name: Daily Horizon Summary
 
 on:
-  # schedule:
-  #   - cron: '0 0 */2 * *'  # Runs every 2 days at 00:00 UTC
-  workflow_dispatch:      # Allow manual trigger
+  schedule:
+    - cron: '0 9 * * *' # Запуск каждый день в 9 утра по UTC
+  workflow_dispatch: # Кнопка ручного запуска
 
 jobs:
-  daily-summary:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Needed to commit changes
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - uses: actions/checkout@v4
 
       - name: Install uv
         uses: astral-sh/setup-uv@v3
 
-      - name: Install dependencies
-        run: uv sync
-
       - name: Run Horizon
+        run: uv run horizon --hours 24
         env:
-          # Map secrets to environment variables expected by config.json
-          # Modify these based on your config.json provider settings
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          LWN_KEY: ${{ secrets.LWN_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NANOGPT_API_KEY: ${{ secrets.NANOGPT_API_KEY }}
-        run: uv run horizon --hours 48
 
-      - name: Set current date as environment variable
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Find Latest Russian Summary
+        id: find_file
+        run: |
+          # Ищем последний файл, заканчивающийся на -ru.md
+          LATEST_FILE=$(ls data/summaries/*-ru.md | tail -n 1)
+          if [ -n "$LATEST_FILE" ]; then
+            echo "file_path=$LATEST_FILE" >> $GITHUB_OUTPUT
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send to Telegram
+        if: steps.find_file.outputs.found == 'true'
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          document: ${{ steps.find_file.outputs.file_path }}
+          message: |
+            🌅 **КликХак: Свежий IT-дайджест готов!**
+            
+            ИИ проанализировал новости за последние 24 часа. Готовый пост в прикрепленном файле.
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          keep_files: true  # Keep existing summaries on gh-pages branch
-          commit_message: "📝 Daily Summary: ${{ env.DATE }}"
-          publish_branch: gh-pages
-          enable_jekyll: true
