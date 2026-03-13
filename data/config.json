@@ -9,24 +9,27 @@
   },
   "sources": {
     "rss": [
-      { "name": "Phoronix (Linux/OSS)", "url": "https://www.phoronix.com/phoronix-rss.php" },
-      { "name": "AlternativeTo (Software)", "url": "https://alternativeto.net/news/feed/" },
-      { "name": "It's FOSS", "url": "https://itsfoss.com/rss/" },
-      { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index" },
-      { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
-      { "name": "The Register", "url": "https://www.theregister.com/headlines.rss" },
-      { "name": "Neowin", "url": "https://www.neowin.net/news/rss/" },
-      { "name": "Android Central", "url": "https://www.androidcentral.com/feed" },
-      { "name": "TechCrunch", "url": "https://techcrunch.com/feed/" }
+      { "name": "It's FOSS", "url": "https://itsfoss.com/feed/" },
+      { "name": "9to5Linux", "url": "https://9to5linux.com/feed" },
+      { "name": "Phoronix", "url": "https://www.phoronix.com/phoronix-rss.php" },
+      { "name": "DebugPoint", "url": "https://www.debugpoint.com/feed/" },
+      { "name": "OMG! Ubuntu!", "url": "https://www.omgubuntu.co.uk/feed" },
+      { "name": "Linux Today", "url": "https://www.linuxtoday.com/feed/" }
     ],
+    "reddit": { 
+      "enabled": true,
+      "subreddits": ["opensource", "selfhosted", "fossdroid"],
+      "limit_per_sub": 10
+    },
     "hackernews": { 
       "enabled": true, 
-      "fetch_top_stories": 30, 
+      "fetch_top_stories": 20, 
       "min_score": 200 
-    }
+    },
+    "telegram": { "enabled": false }
   },
   "filtering": {
-    "ai_score_threshold": 7.0,
+    "ai_score_threshold": 6.0,
     "time_window_hours": 24
   },
   "summary": {
