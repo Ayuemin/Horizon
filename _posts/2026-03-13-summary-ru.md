@@ -5,992 +5,1290 @@ date: 2026-03-13
 lang: ru
 ---
 
-> From 143 items, 44 important content pieces were selected
+> From 82 items, 78 important content pieces were selected
 
 ---
 
-1. [Google unveils Gemini Embedding 2 for multimodal retrieval across various types of media](#item-1) ⭐️ 9.0/10
-2. [Shall I implement it? No](#item-2) ⭐️ 8.0/10
-3. [Reversing memory loss via gut-brain communication](#item-3) ⭐️ 8.0/10
-4. [Innocent woman jailed after being misidentified using AI facial recognition](#item-4) ⭐️ 8.0/10
-5. [AMD ZenDNN 5.2 Brings A Major Redesign, AOCC 5.1 Recently Released](#item-5) ⭐️ 8.0/10
-6. [AMD, NVIDIA, OpenAI & Others Form An Optical Scale-up Consortium](#item-6) ⭐️ 8.0/10
-7. [Anthropic launches a code review tool with multi-agent AI bug detection, but it's pricey](#item-7) ⭐️ 8.0/10
-8. [OpenProject 17.2 adds MCP server, reusable meeting templates, and improved PDF exports](#item-8) ⭐️ 8.0/10
-9. [Kling 3.0 brings enhanced realism, 2K/4K output, multimodal video & facial motion control](#item-9) ⭐️ 8.0/10
-10. [Veeam warns of critical flaws exposing backup servers to RCE attacks](#item-10) ⭐️ 8.0/10
-11. [Telus Digital confirms breach after hacker claims 1 petabyte data theft](#item-11) ⭐️ 8.0/10
-12. [Rogue AI agents can work together to hack systems and steal secrets](#item-12) ⭐️ 8.0/10
-13. [Quicksort inventor Tony Hoare reaches the base case at 92](#item-13) ⭐️ 8.0/10
-14. [CISA warns max-severity n8n bug is being exploited in the wild](#item-14) ⭐️ 8.0/10
-15. ['Immersive Navigation' in Google Maps is like opening a new app for the modern era of driving](#item-15) ⭐️ 8.0/10
-16. [Law enforcement shuts down botnet made of tens of thousands of hacked routers](#item-16) ⭐️ 8.0/10
-17. [Malus – Clean Room as a Service](#item-17) ⭐️ 7.0/10
-18. [US private credit defaults hit record 9.2% in 2025, Fitch says](#item-18) ⭐️ 7.0/10
-19. [Big data on the cheapest MacBook](#item-19) ⭐️ 7.0/10
-20. [Ubuntu's AppArmor Hit By Several Security Issues - Can Yield Local Privilege Escalation](#item-20) ⭐️ 7.0/10
-21. [Google To Finally Provide Chrome ARM64 Binaries For Linux](#item-21) ⭐️ 7.0/10
-22. [AMD HDR/Color Improvement For Their Linux Driver & KDE - Co-Developed By Claude Code](#item-22) ⭐️ 7.0/10
-23. [Qt Creator 19 IDE Released With Minimap, Built-In MCP Server For AI / LLMs](#item-23) ⭐️ 7.0/10
-24. [GPT-5.4 and 5.3 models now available in Make](#item-24) ⭐️ 7.0/10
-25. [Astro 6.0 brings new astro dev, built-in Fonts API, Live Content Collections, and CSP API](#item-25) ⭐️ 7.0/10
-26. [The who, what, and why of the attack that has shut down Stryker's Windows network](#item-26) ⭐️ 7.0/10
-27. [AI-generated Slopoly malware used in Interlock ransomware attack](#item-27) ⭐️ 7.0/10
-28. [US disrupts SocksEscort proxy network powered by Linux malware](#item-28) ⭐️ 7.0/10
-29. [Apple patches older iPhones and iPads against Coruna exploits](#item-29) ⭐️ 7.0/10
-30. [US charges another ransomware negotiator linked to BlackCat attacks](#item-30) ⭐️ 7.0/10
-31. [Pentagon AI chief praises Palantir tech for speeding battlefield strikes](#item-31) ⭐️ 7.0/10
-32. [Operation Lightning takes down SocksEscort proxy network blamed for tens of millions in fraud](#item-32) ⭐️ 7.0/10
-33. [Campaigners claim NHS Palantir system could be accessed by police and immigration](#item-33) ⭐️ 7.0/10
-34. [Britain turns up the heat on homegrown ceramics for hypersonic missiles](#item-34) ⭐️ 7.0/10
-35. [Claude just got one step closer to image generation with this new feature](#item-35) ⭐️ 7.0/10
-36. [Google Maps gets its biggest navigation upgrade in a decade](#item-36) ⭐️ 7.0/10
-37. [Google just gave Gemini the power to control apps on the Galaxy S26 — and it's pretty wild](#item-37) ⭐️ 7.0/10
-38. [Before quantum computing arrives, this startup wants enterprises already running on it](#item-38) ⭐️ 7.0/10
-39. [Atlassian follows Block’s footsteps and cuts staff in the name of AI](#item-39) ⭐️ 7.0/10
-40. [Humanoid robotics maker Sunday reaches $1.15B valuation to build household robots](#item-40) ⭐️ 7.0/10
-41. [Bumble introduces an AI dating assistant, ‘Bee’](#item-41) ⭐️ 7.0/10
-42. [A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent](#item-42) ⭐️ 7.0/10
-43. [Tesla becomes a utility in the UK, setting up showdown with Octopus Energy](#item-43) ⭐️ 7.0/10
-44. [Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder](#item-44) ⭐️ 7.0/10
+1. [Vite 8.0 Is Out](#item-1) ⭐️ 9.0/10
+2. [Google fixes two new Chrome zero-days exploited in attacks](#item-2) ⭐️ 9.0/10
+3. [AI-generated Slopoly malware used in Interlock ransomware attack](#item-3) ⭐️ 9.0/10
+4. [Veeam warns of critical flaws exposing backup servers to RCE attacks](#item-4) ⭐️ 9.0/10
+5. [ATMs didn’t kill bank teller jobs, but the iPhone did](#item-5) ⭐️ 8.0/10
+6. [Shall I implement it? No](#item-6) ⭐️ 8.0/10
+7. [Enhancing gut-brain communication reversed cognitive decline in aging mice](#item-7) ⭐️ 8.0/10
+8. [The Met releases high-def 3D scans of 140 famous art objects](#item-8) ⭐️ 8.0/10
+9. [US private credit defaults hit record 9.2% in 2025, Fitch says](#item-9) ⭐️ 8.0/10
+10. [Canva now lets you convert static images into fully editable, multi-layered designs](#item-10) ⭐️ 8.0/10
+11. [YouTube is about to make even longer and unskippable Ads for non-Premium users on TV](#item-11) ⭐️ 8.0/10
+12. [Google Maps launches "decade’s biggest update" with AI Ask Maps and Immersive Navigation](#item-12) ⭐️ 8.0/10
+13. [Astro 6.0 brings new astro dev, built-in Fonts API, Live Content Collections, and CSP API](#item-13) ⭐️ 8.0/10
+14. [Google unveils Gemini Embedding 2 for multimodal retrieval across various types of media](#item-14) ⭐️ 8.0/10
+15. [US disrupts SocksEscort proxy network powered by Linux malware](#item-15) ⭐️ 8.0/10
+16. [Google paid $17.1 million for vulnerability reports in 2025](#item-16) ⭐️ 8.0/10
+17. [Telus Digital confirms breach after hacker claims 1 petabyte data theft](#item-17) ⭐️ 8.0/10
+18. [Apple patches older iPhones and iPads against Coruna exploits](#item-18) ⭐️ 8.0/10
+19. [Windows 11 Arm PCs finally get RSAT support](#item-19) ⭐️ 8.0/10
+20. [Linux 7.0 AMDGPU Fixing Idle Power Issue For RDNA4 GPUs After Compute Workloads](#item-20) ⭐️ 8.0/10
+21. [Ubuntu's AppArmor Hit By Several Security Issues - Can Yield Local Privilege Escalation](#item-21) ⭐️ 8.0/10
+22. [Google To Finally Provide Chrome ARM64 Binaries For Linux](#item-22) ⭐️ 8.0/10
+23. [AMD, NVIDIA, OpenAI & Others Form An Optical Scale-up Consortium](#item-23) ⭐️ 8.0/10
+24. [A.B. 1043’s Internet Age Gates Hurt Everyone](#item-24) ⭐️ 8.0/10
+25. [Security updates for Thursday](#item-25) ⭐️ 8.0/10
+26. [Malus – Clean Room as a Service](#item-26) ⭐️ 7.0/10
+27. [“This is not the computer for you”](#item-27) ⭐️ 7.0/10
+28. [Bubble Sorted Amen Break](#item-28) ⭐️ 7.0/10
+29. [An old photo of a large BBS (2022)](#item-29) ⭐️ 7.0/10
+30. [Perplexity launches Personal Computer, a cloud-based AI agent that runs on a Mac mini](#item-30) ⭐️ 7.0/10
+31. [Substack launches a new Recording Studio tool for pre-recorded shows and new overlay tools](#item-31) ⭐️ 7.0/10
+32. [Anthropic launches a code review tool with multi-agent AI bug detection, but it's pricey](#item-32) ⭐️ 7.0/10
+33. [GPT-5.4 and 5.3 models now available in Make](#item-33) ⭐️ 7.0/10
+34. [WordPress Studio adds Xdebug and debug log tools for local debugging](#item-34) ⭐️ 7.0/10
+35. [OpenProject 17.2 adds MCP server, reusable meeting templates, and improved PDF exports](#item-35) ⭐️ 7.0/10
+36. [Starbucks discloses data breach affecting hundreds of employees](#item-36) ⭐️ 7.0/10
+37. [Canadian retail giant Loblaw notifies customers of data breach](#item-37) ⭐️ 7.0/10
+38. [England Hockey investigating ransomware data breach](#item-38) ⭐️ 7.0/10
+39. [Going the Extra Mile: Travel Rewards Turn into Underground Currency.](#item-39) ⭐️ 7.0/10
+40. [Copilot Notebooks get big redesign in latest update](#item-40) ⭐️ 7.0/10
+41. [Looking to expand your smart home? The Amazon Echo Show hit its lowest price in the UK](#item-41) ⭐️ 7.0/10
+42. [Microsoft Teams is getting more new AI features](#item-42) ⭐️ 7.0/10
+43. [Microsoft is bringing more AI features to SharePoint](#item-43) ⭐️ 7.0/10
+44. [Beaver-themed city-builder Timberborn exits early access with a massive update](#item-44) ⭐️ 7.0/10
+45. [Google is finally bringing Chrome to ARM64 Linux devices](#item-45) ⭐️ 7.0/10
+46. [Microsoft introduces Copilot Health to analyze your health data from wearable devices](#item-46) ⭐️ 7.0/10
+47. [The best AMD Ryzen processor for gaming is now available at the lowest price](#item-47) ⭐️ 7.0/10
+48. [Senior Microsoft executive announces retirement as org chart shakes yet again](#item-48) ⭐️ 7.0/10
+49. [You can play Battlefield 6 for free next week just as Nightfall phase begins](#item-49) ⭐️ 7.0/10
+50. [Save 56% on Microsoft Office 2024 + a Surface FE (2022) Laptop (Open Box)](#item-50) ⭐️ 7.0/10
+51. [Claude just got one step closer to image generation with this new feature](#item-51) ⭐️ 7.0/10
+52. [Windows 11 gets extreme display refresh rate support and new features in KB5079387](#item-52) ⭐️ 7.0/10
+53. [Diablo IV, Killing Floor 3, and more join Xbox Free Play Days for the weekend](#item-53) ⭐️ 7.0/10
+54. [Cozy Grove and Isonzo are free to claim on the Epic Games Store](#item-54) ⭐️ 7.0/10
+55. [NVIDIA GeForce NOW is getting upgrades for VR gaming, GOG store, and more](#item-55) ⭐️ 7.0/10
+56. [Google Maps gets its biggest navigation upgrade in a decade](#item-56) ⭐️ 7.0/10
+57. [Firefox on Windows 7 refuses to die, gets another six months of support](#item-57) ⭐️ 7.0/10
+58. [Intel NPU Driver 1.30 Released For Linux](#item-58) ⭐️ 7.0/10
+59. [GNOME Infrastructure Now Battling Bots & AI Scrapers Using Fastly](#item-59) ⭐️ 7.0/10
+60. [Intel Updates LLM-Scaler-vLLM With Support For More Qwen3/3.5 Models](#item-60) ⭐️ 7.0/10
+61. [TrueNAS Connect Announced For Offering Enterprise Features Without The Hardware](#item-61) ⭐️ 7.0/10
+62. [Linux 7.0 cpupower Now Handles systemd Service Setting EPP, Intel P-State Turbo Boost](#item-62) ⭐️ 7.0/10
+63. [systemd 260-rc3 Released With AI Agents Documentation Added](#item-63) ⭐️ 7.0/10
+64. [AMD ZenDNN 5.2 Brings A Major Redesign, AOCC 5.1 Recently Released](#item-64) ⭐️ 7.0/10
+65. [Intel CPU Security Mitigation Costs From Haswell Through Panther Lake](#item-65) ⭐️ 7.0/10
+66. [EndeavourOS Titan Released With Linux 6.19, Improved GPU Driver Integration](#item-66) ⭐️ 7.0/10
+67. [AMD HDR/Color Improvement For Their Linux Driver & KDE - Co-Developed By Claude Code](#item-67) ⭐️ 7.0/10
+68. [Radeon "RADV" Vulkan Driver Finally Lands VK_KHR_copy_memory_indirect](#item-68) ⭐️ 7.0/10
+69. [Mesa 26.0.2 Has Plenty Of Graphics Driver Fixes From Intel & RADV Vulkan To Old R300g](#item-69) ⭐️ 7.0/10
+70. [Qt Creator 19 IDE Released With Minimap, Built-In MCP Server For AI / LLMs](#item-70) ⭐️ 7.0/10
+71. [Calibre 9.5 E-Book Manager Released With Reading Progress Column](#item-71) ⭐️ 7.0/10
+72. [APTUI Introduces a Modern TUI for Debian, Ubuntu, and Mint Packages](#item-72) ⭐️ 7.0/10
+73. [Igalia Introduces Moonforge Linux, a Yocto-Based OS for Embedded Devices](#item-73) ⭐️ 7.0/10
+74. [EndeavourOS Titan Launches With Linux 6.19, New GPU Driver Tool](#item-74) ⭐️ 7.0/10
+75. [Fwupd 2.1.1 Released With AMD Platform Secure Boot Support](#item-75) ⭐️ 7.0/10
+76. [Rep. Finke Was Right: Age-Gating Isn’t About Kids, It’s About Control](#item-76) ⭐️ 7.0/10
+77. [($) Practical uses for a null filesystem](#item-77) ⭐️ 7.0/10
+78. [Two stable kernels for Thursday](#item-78) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google unveils Gemini Embedding 2 for multimodal retrieval across various types of media](https://alternativeto.net/news/2026/3/google-unveils-gemini-embedding-2-for-multimodal-retrieval-across-various-types-of-media/) ⭐️ 9.0/10
+## [Vite 8.0 Is Out](https://vite.dev/blog/announcing-vite8) ⭐️ 9.0/10
 
-Google has launched Gemini Embedding 2, a fully multimodal embedding model that integrates text, images, video, audio, and documents into a single embedding space. This model supports over 100 languages and enhances various multimodal tasks. This development is significant as it represents a major advancement in multimodal AI capabilities, potentially transforming applications across various industries. Users will benefit from improved interactions and analyses involving different media types. Gemini Embedding 2 can process up to 8192 text tokens, handle up to 6 images per request, and support 120 seconds of video. It employs Matryoshka Representation Learning for dynamic scaling of embedding dimensions and is available in public preview via the Gemini API and Vertex AI.
+Vite 8.0 is released with notable performance improvements, garnering positive feedback from the developer community.
 
-rss · AlternativeTo (Software) · Mar 12, 14:30
+hackernews · kothariji · Mar 13, 04:36
 
-**Background**: The Gemini architecture is designed to handle multiple data types, allowing for advanced processing and generation across text, images, audio, and video. Retrieval-Augmented Generation (RAG) is a technique that enhances the performance of large language models by integrating external information, improving accuracy and reducing hallucinations.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation</a></li>
-<li><a href="https://towardsdatascience.com/multimodal-embeddings-an-introduction-5dc36975966f/">Multimodal Embeddings: An Introduction | Towards Data Science</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community is excited about the potential applications of Gemini Embedding 2, with many expressing optimism about its impact on AI development. However, some users have raised concerns about the complexity of integrating such a model into existing systems.
-
-**Tags**: `#AI`, `#Machine Learning`, `#Multimodal`, `#Natural Language Processing`, `#Google`
+**Tags**: `#Vite`, `#JavaScript`, `#Bundler`, `#Performance`, `#Frontend Development`
 
 ---
 
 <a id="item-2"></a>
-## [Shall I implement it? No](https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0) ⭐️ 8.0/10
+## [Google fixes two new Chrome zero-days exploited in attacks](https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/) ⭐️ 9.0/10
 
-The discussion highlights the difficulties AI models face in adhering to user permissions, particularly regarding how consent is treated in the context of model behavior. It emphasizes the implications of viewing consent as prompt material rather than a strict control mechanism. This issue is significant as it affects how AI models interact with users and manage permissions, potentially leading to misuse or unintended actions. The broader implications could influence user trust and the design of AI systems in various industries. The community discussion reveals that treating consent as tokens can lead to failures in enforcing permissions, which is a critical aspect of user interface design. Additionally, recent changes in AI models, such as Codex and Claude Code, have raised concerns about their responsiveness to user queries and commands.
+Google patched two actively exploited zero-day vulnerabilities in Chrome, requiring users to update immediately.
 
-hackernews · breton · Mar 12, 21:01
+rss · BleepingComputer · Mar 13, 06:56
 
-**Background**: AI compliance involves ensuring that AI systems operate within legal and ethical guidelines, particularly regarding user consent and permissions. The way consent is integrated into AI models can significantly influence their behavior and reliability.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.ibm.com/think/insights/ai-compliance">AI Compliance: What It Is, Why It Matters and How to Get ...</a></li>
-<li><a href="https://www.mend.io/blog/what-is-ai-compliance/">What is AI Compliance? Frameworks, Regulations & Best Practices</a></li>
-<li><a href="https://kpmg.com/xx/en/our-insights/regulatory-insights/validating-ai-models.html">Validating AI models - kpmg.com</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments reflect a consensus that consent should be treated as a strict control mechanism rather than as part of the model's input. Users express frustration over AI models misinterpreting commands and failing to enforce permissions properly.
-
-**Tags**: `#AI`, `#User Interface`, `#Model Behavior`, `#Community Discussion`, `#Software Engineering`
+**Tags**: `#Chrome`, `#Zero-day`, `#Security Update`, `#Vulnerability`, `#Google`
 
 ---
 
 <a id="item-3"></a>
-## [Reversing memory loss via gut-brain communication](https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html) ⭐️ 8.0/10
+## [AI-generated Slopoly malware used in Interlock ransomware attack](https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/) ⭐️ 9.0/10
 
-A recent study found that low-dose capsaicin can restore memory function in older mice. This highlights the potential of gut-brain communication in addressing cognitive decline. This discovery is significant as it suggests a possible therapeutic approach to combat cognitive decline in aging populations. It could influence future research and treatments in neuroscience and geriatric health. The study specifically used a low dose of capsaicin at 5 μg/kg, which completely restored hippocampal activity and memory in older mice. This suggests that even small doses of this compound can have significant effects on cognitive function.
+A new AI-generated malware strain called Slopoly has been identified in an Interlock ransomware attack. The malware enabled data theft after a week-long compromise of a server. This incident highlights the increasing sophistication of cyber threats with the emergence of AI-generated malware. It signals a potential escalation in the scale and effectiveness of ransomware attacks. The Slopoly malware, likely created using generative AI tools, allowed threat actors to maintain persistent access to a compromised server. The attackers, identified as Hive0163, used Slopoly to steal data during the Interlock ransomware attack.
 
-hackernews · mustaphah · Mar 12, 16:38
+rss · BleepingComputer · Mar 12, 20:01
 
-**Background**: The gut-brain axis refers to the biochemical signaling between the gastrointestinal tract and the central nervous system. Research has shown that gut microbiota can influence brain function, including memory and emotional responses, through various chemical signals.
+**Background**: Interlock is a ransomware group known for its focus on big-game hunting and double-extortion tactics. Unlike many ransomware operations, Interlock does not operate under the Ransomware-as-a-Service (RaaS) model. They develop and operate their own malware to support their kill chain.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html">Enhancing gut-brain communication reversed cognitive decline ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gut-brain_communication">Gut-brain communication</a></li>
-<li><a href="https://my.clevelandclinic.org/health/body/the-gut-brain-connection">What Is the Gut-Brain Connection? - Cleveland Clinic</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/">AI-generated Slopoly malware used in Interlock ransomware attack</a></li>
+<li><a href="https://www.ibm.com/think/x-force/slopoly-start-ai-enhanced-ransomware-attacks">A Slopoly start to AI-enhanced ransomware attacks - IBM</a></li>
+<li><a href="https://www.facebook.com/thehackernews/posts/-ibm-x-force-found-ai-generated-malware-slopoly-used-by-hive0163the-powershell-b/1316277913870122/">IBM X-Force found AI-generated #malware Slopoly used by Hive0163. The PowerShell backdoor ... - Facebook</a></li>
+<li><a href="https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html?m=1">Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks</a></li>
+<li><a href="https://www.fortinet.com/blog/threat-research/interlock-ransomware-new-techniques-same-old-tricks">Interlock Ransomware: New Techniques, Same Old Tricks | FortiGuard Labs</a></li>
+<li><a href="https://areteir.com/resources/interlock-emerging-ransomware-threat">Interlock: An Emerging Ransomware Threat - Arete</a></li>
+<li><a href="https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html">Hive0163 Uses AI-Assisted Slopoly Malware for Persistent ...</a></li>
+<li><a href="https://www.techradar.com/pro/security/hackers-have-finally-made-sophisticated-ai-generated-malware-this-ai-virus-was-functional-in-a-matter-of-days-and-mimicked-the-work-of-a-three-dev-teams-working-50-hours-a-week">Hackers have finally made sophisticated AI generated malware ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments reflect a mix of skepticism and interest in the implications of the study. Some commenters emphasize the relevance of gut health and microbiota in human behavior, while others appreciate the cautious approach of the study regarding its translational relevance.
+**Discussion**: The use of AI in creating malware is raising concerns about the future of cybersecurity. Some experts believe that AI will significantly lower the barrier to entry for cybercriminals.
 
-**Tags**: `#gut-brain connection`, `#memory loss`, `#cognitive health`, `#neuroscience`, `#research study`
+**Tags**: `#AI`, `#Malware`, `#Ransomware`, `#Cybersecurity`, `#Slopoly`
 
 ---
 
 <a id="item-4"></a>
-## [Innocent woman jailed after being misidentified using AI facial recognition](https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case) ⭐️ 8.0/10
+## [Veeam warns of critical flaws exposing backup servers to RCE attacks](https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/) ⭐️ 9.0/10
 
-An innocent woman was wrongfully jailed for months due to a misidentification by AI facial recognition technology in a fraud case. This incident has raised serious concerns about the reliability of such technology in the legal system. This case highlights the ethical and legal implications of using AI in law enforcement, potentially affecting public trust in these technologies. It raises questions about accountability and the need for oversight in the application of AI tools. The woman, who was misidentified as a suspect, was over 1,200 miles away when the alleged crime occurred. This misidentification underscores the limitations of current facial recognition technology and the need for more rigorous validation processes.
+Veeam patched critical remote code execution vulnerabilities in its Backup & Replication solution, potentially exposing backup servers to attacks.
 
-hackernews · rectang · Mar 12, 20:55
+rss · BleepingComputer · Mar 12, 16:59
 
-**Background**: Facial recognition technology uses algorithms to identify individuals based on their facial features. While it has been adopted in various sectors, its accuracy and reliability have been questioned, especially in high-stakes situations like law enforcement.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://publicsafety.ieee.org/topics/ethical-considerations-in-the-use-of-facial-recognition-for-public-safety/">Ethical Considerations in the Use of Facial Recognition for ...</a></li>
-<li><a href="https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/">When AI Gets It Wrong: Addressing AI Hallucinations and Bias</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments reflect a strong sentiment regarding accountability, with many suggesting legal action against the police for their reliance on flawed technology. Concerns about the broader implications of such misidentifications on the justice system were also raised.
-
-**Tags**: `#AI`, `#Facial Recognition`, `#Legal Issues`, `#Ethics`, `#Criminal Justice`
+**Tags**: `#Veeam`, `#RCE`, `#Vulnerability`, `#Backup`, `#Security`
 
 ---
 
 <a id="item-5"></a>
-## [AMD ZenDNN 5.2 Brings A Major Redesign, AOCC 5.1 Recently Released](https://www.phoronix.com/news/AMD-ZenDNN-5.2-Released) ⭐️ 8.0/10
+## [ATMs didn’t kill bank teller jobs, but the iPhone did](https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller) ⭐️ 8.0/10
 
-AMD has released ZenDNN 5.2, which features a significant redesign and introduces a next-generation runtime architecture aimed at enhancing performance for deep neural networks. This new version is expected to provide better scalability compared to earlier iterations of the library. This release is significant as it indicates AMD's commitment to improving performance in AI and machine learning applications, which are increasingly important in various industries. Enhanced performance and scalability can lead to more efficient deep learning solutions, affecting developers and businesses relying on AI technologies. ZenDNN 5.2 is optimized for AMD's Zen CPU architecture and includes fundamental building blocks and APIs for deep learning. This version aims to compete directly with Intel's oneDNN library, which has been a standard in the field.
+The article argues that while ATMs didn't eliminate bank teller jobs, the rise of mobile banking through smartphones significantly reduced the need for tellers by shifting banking activities online.
 
-rss · Phoronix (Linux/OSS) · Mar 12, 17:11
+hackernews · colinprince · Mar 12, 14:48
 
-**Background**: ZenDNN is a deep neural network acceleration inference library developed by AMD, designed to optimize performance on their CPU architecture. It serves as an alternative to Intel's oneDNN, which is widely used for deep learning applications. The improvements in ZenDNN 5.2 are particularly relevant as AI technologies continue to evolve rapidly.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.amd.com/en/developer/zendnn.html">AMD Zen Deep Neural Network ( ZenDNN )</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AMD`, `#ZenDNN`, `#Deep Learning`, `#AI`, `#Performance`
+**Tags**: `#banking`, `#technology`, `#economics`, `#automation`, `#jobs`
 
 ---
 
 <a id="item-6"></a>
-## [AMD, NVIDIA, OpenAI & Others Form An Optical Scale-up Consortium](https://www.phoronix.com/news/Optical-Compute-Interconnect) ⭐️ 8.0/10
+## [Shall I implement it? No](https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0) ⭐️ 8.0/10
 
-Major tech companies including AMD, NVIDIA, OpenAI, and others have announced the formation of the Optical Compute Interconnect (OCI) Multi-Source Agreement (MSA) consortium. This initiative aims to advance optical computing technologies. This consortium signifies a collaborative effort among industry leaders to push the boundaries of optical computing, which could revolutionize data processing and AI applications. The impact of this initiative may extend to various sectors reliant on high-performance computing. The consortium will focus on creating open specifications for optical interconnects, which are crucial for enhancing data transfer speeds and efficiency in computing systems. This initiative could lead to the establishment of industry standards that promote interoperability among different vendors.
+The article, along with its Hacker News discussion, highlights issues with the behavior of Claude and Codex models, specifically regarding their tendency to freestyle or make incorrect assumptions, as reported by users.
 
-rss · Phoronix (Linux/OSS) · Mar 12, 13:19
+hackernews · breton · Mar 12, 21:01
 
-**Background**: Optical computing utilizes light instead of electricity to perform calculations, which can potentially lead to faster and more efficient processing capabilities. The formation of the Optical Compute Interconnect consortium is part of a broader trend in the tech industry towards collaborative development of advanced computing technologies.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.broadcom.com/company/news/product-releases/optical-scale-up-consortium-established-to-create-an-open-specification-for-ai-infrastructure">Optical Scale-up Consortium Established to Create an Open ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Optical_interconnect">Optical interconnect - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community sentiment appears to be largely positive, with many expressing excitement about the potential advancements in optical computing. Some users have raised questions about the practical applications and timelines for these technologies.
-
-**Tags**: `#Optical Computing`, `#Consortium`, `#AI`, `#Technology Development`, `#Industry Collaboration`
+**Tags**: `#AI`, `#Claude`, `#Codex`, `#Language Models`, `#Software Development`
 
 ---
 
 <a id="item-7"></a>
-## [Anthropic launches a code review tool with multi-agent AI bug detection, but it's pricey](https://alternativeto.net/news/2026/3/anthropic-launches-a-code-review-tool-with-multi-agent-ai-bug-detection-but-it-s-pricey/) ⭐️ 8.0/10
+## [Enhancing gut-brain communication reversed cognitive decline in aging mice](https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html) ⭐️ 8.0/10
 
-Anthropic has introduced Code Review, an AI-driven tool that uses multiple agents to inspect pull requests for bugs. This tool offers a more in-depth alternative to existing solutions, with reviews typically costing between $15 and $25. This launch is significant as it represents a notable advancement in AI-assisted code review processes, potentially improving software quality. However, the pricing may limit accessibility for smaller teams or individual developers. Code Review assigns several agents to independently examine code in parallel, minimizing false positives and prioritizing bugs by severity. The review process adapts to the complexity of each pull request, taking an average of 20 minutes to complete.
+A study found that enhancing gut-brain communication reversed cognitive decline in aging mice, highlighting the potential of targeting the gut microbiome for treating age-related cognitive issues.
 
-rss · AlternativeTo (Software) · Mar 12, 17:30
+hackernews · mustaphah · Mar 12, 16:38
 
-**Background**: Code review is a critical part of software development, allowing developers to propose changes and receive feedback before merging. Multi-agent systems involve multiple autonomous agents that interact to solve complex problems, making them suitable for tasks like bug detection in code.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.hokanews.com/2026/03/claude-ai-launches-automated-code.html">Claude AI Launches Automated Code Review Agents to Detect Bugs ...</a></li>
-<li><a href="https://www.techedubyte.com/claude-code-review-ai-bug-checking-tool/">This new Claude Code Review tool uses AI agents to check your pull ...</a></li>
-<li><a href="https://www.moneycontrol.com/technology/anthropic-launches-claude-code-review-to-automatically-detect-bugs-in-pull-requests-article-13856057.html">Anthropic launches Claude Code Review to automatically detect bugs</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community has shown interest in the potential of multi-agent systems for improving code quality, although some express concerns about the cost. There is a general agreement on the need for advanced bug detection tools in software development.
-
-**Tags**: `#AI`, `#Code Review`, `#Software Development`, `#Bug Detection`, `#Anthropic`
+**Tags**: `#gut-brain axis`, `#cognitive decline`, `#microbiome`, `#aging`, `#capsaicin`
 
 ---
 
 <a id="item-8"></a>
-## [OpenProject 17.2 adds MCP server, reusable meeting templates, and improved PDF exports](https://alternativeto.net/news/2026/3/openproject-17-2-adds-mcp-server-reusable-meeting-templates-and-improved-pdf-exports/) ⭐️ 8.0/10
+## [The Met releases high-def 3D scans of 140 famous art objects](https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html) ⭐️ 8.0/10
 
-OpenProject 17.2 has been released, featuring the new MCP Server for AI integration, reusable meeting templates, and enhanced PDF export capabilities. This version also improves financial insights on the Project Overview page. The introduction of the MCP Server marks a significant advancement in project management software, enabling better integration with AI systems. This could enhance the relevance of OpenProject in the competitive landscape of project management tools. The MCP Server uses the Model Context Protocol to allow secure access to OpenProject's structured data by external AI tools. Additionally, the update includes features like comment fields for project attributes and improved accessibility.
+The Metropolitan Museum of Art released high-definition 3D scans of 140 art objects, sparking discussion about file formats, download scripts, and the museum's viewer limitations.
 
-rss · AlternativeTo (Software) · Mar 12, 13:00
+hackernews · coloneltcb · Mar 12, 15:43
 
-**Background**: OpenProject is a free and open-source project management software that facilitates collaboration and project tracking. The Model Context Protocol (MCP) is an open standard designed to streamline the integration of AI systems with external tools, enhancing data sharing and interoperability.
-
-**Discussion**: No community comments were provided for this news item.
-
-**Tags**: `#OpenProject`, `#Project Management`, `#AI Integration`, `#Software Update`, `#MCP Server`
+**Tags**: `#art`, `#3D scanning`, `#museum`, `#digital preservation`, `#cultural heritage`
 
 ---
 
 <a id="item-9"></a>
-## [Kling 3.0 brings enhanced realism, 2K/4K output, multimodal video & facial motion control](https://alternativeto.net/news/2026/3/kling-3-0-brings-enhanced-realism-2k-4k-output-multimodal-video-and-facial-motion-control/) ⭐️ 8.0/10
+## [US private credit defaults hit record 9.2% in 2025, Fitch says](https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d) ⭐️ 8.0/10
 
-Kling 3.0 has launched with significant upgrades to its AI text-to-video and text-to-image models, featuring enhanced realism and the ability to output in 2K and 4K resolutions. The new version also introduces a unified multimodal architecture for improved video generation capabilities. This upgrade is significant as it enhances creative workflows in media and entertainment by providing tools for high-resolution video and image generation. The multimodal capabilities could also streamline the integration of different media types, making content creation more efficient. Kling 3.0 features include a cinematic narrative experience through still frame storytelling, style transfer, and improved character performance in videos. Users can now generate videos up to 15 seconds long with native audio.
+Fitch reports a record 9.2% default rate in US private credit in 2025, sparking discussion about the exposure of banks and the potential consequences for businesses.
 
-rss · AlternativeTo (Software) · Mar 12, 08:30
+hackernews · JumpCrisscross · Mar 12, 12:44
 
-**Background**: Kling is an AI platform that focuses on generating video and image content from textual descriptions. The advancements in text-to-video models have been driven by generative AI technologies, allowing for more realistic and coherent visual outputs.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Multimodal_Architecture_and_Interfaces">Multimodal Architecture and Interfaces</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Neural_style_transfer">Neural style transfer - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Text-to-video_model">Text-to-video model</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community has shown a positive response to the new features, particularly the enhanced realism and multimodal capabilities. Users are excited about the potential for improved creative workflows.
-
-**Tags**: `#AI`, `#Video Generation`, `#Image Processing`, `#Multimodal`, `#Creative Tools`
+**Tags**: `#private credit`, `#defaults`, `#banks`, `#private equity`, `#finance`
 
 ---
 
 <a id="item-10"></a>
-## [Veeam warns of critical flaws exposing backup servers to RCE attacks](https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/) ⭐️ 8.0/10
+## [Canva now lets you convert static images into fully editable, multi-layered designs](https://alternativeto.net/news/2026/3/canva-now-lets-you-convert-static-images-into-fully-editable-multi-layered-designs/) ⭐️ 8.0/10
 
-Veeam Software has released patches for multiple critical remote code execution vulnerabilities in its Backup & Replication solution. This includes four significant flaws that could allow attackers to execute code remotely. These vulnerabilities pose serious security risks for users of Veeam's Backup & Replication software, as they could allow unauthorized access to sensitive data. The widespread use of this software in data protection makes these flaws particularly concerning. The vulnerabilities include a critical flaw with a CVSS score of 9.9, allowing a Backup Viewer to execute code as the postgres user. Users are urged to apply the patches immediately to mitigate potential risks.
+Canva's new Magic Layers feature converts static images into fully editable, multi-layered designs, unlocking new creative possibilities.
 
-rss · BleepingComputer · Mar 12, 16:59
+rss · AlternativeTo · Mar 13, 08:30
 
-**Background**: Veeam Backup & Replication is a widely used data protection solution that allows organizations to back up and replicate their data. Remote Code Execution (RCE) vulnerabilities are serious security flaws that can allow attackers to execute arbitrary code on a server, potentially leading to data breaches.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/">Veeam warns of critical flaws exposing backup servers to RCE ...</a></li>
-<li><a href="https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html">Veeam Patches 7 Critical Backup & Replication Flaws Allowing ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Cybersecurity`, `#Veeam`, `#Remote Code Execution`, `#Data Protection`, `#Vulnerabilities`
+**Tags**: `#Canva`, `#Magic Layers`, `#Image Editing`, `#AI`, `#Design Tool`
 
 ---
 
 <a id="item-11"></a>
-## [Telus Digital confirms breach after hacker claims 1 petabyte data theft](https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/) ⭐️ 8.0/10
+## [YouTube is about to make even longer and unskippable Ads for non-Premium users on TV](https://alternativeto.net/news/2026/3/youtube-is-about-to-make-even-longer-and-unskippable-ads-for-non-premium-users-on-tv/) ⭐️ 8.0/10
 
-Telus Digital has confirmed a security breach involving the theft of nearly 1 petabyte of data by hackers. This incident reportedly occurred over several months. This breach raises significant concerns about data security and privacy, particularly given the massive amount of data involved. It could have far-reaching implications for customers and the broader cybersecurity landscape. The breach involved a substantial volume of unstructured data, typical of large-scale data centers. Such a large theft indicates potential vulnerabilities in Telus Digital's cybersecurity measures.
+YouTube is introducing longer, unskippable 30-second ads for non-premium users watching on smart TVs and streaming devices. This change aims to boost ad revenue but worsens the user experience for those who don't subscribe to YouTube Premium. This change significantly impacts users who rely on the free version of YouTube on their TVs, potentially pushing them towards a Premium subscription. It reflects YouTube's strategy to monetize its platform more aggressively on larger screens. The new 30-second unskippable ads will only affect users watching YouTube on smart TVs and streaming devices. Google's AI will determine the ad format, choosing between 6-second, 15-second, and 30-second options.
 
-rss · BleepingComputer · Mar 12, 14:40
+rss · AlternativeTo · Mar 13, 05:45
 
-**Background**: A petabyte is an enormous unit of data storage, equivalent to 1,024 terabytes. Cybersecurity breaches have become increasingly common, with threat actors employing sophisticated methods to steal sensitive information from organizations.
+**Background**: YouTube has been experimenting with different ad formats to maximize revenue while balancing user experience. The company argues that TV viewers are more receptive to longer ads, similar to traditional TV ad breaks. YouTube Premium offers an ad-free experience and other benefits like background play and offline downloads.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/">Telus Digital confirms breach after hacker claims 1 petabyte data theft</a></li>
+<li><a href="https://www.reddit.com/r/YoutubeMusic/comments/1n8jxlu/youtube_premium_is_the_best_thing_ever_offered/">YouTube Premium is the best thing EVER offered from ANY Company - Reddit</a></li>
+<li><a href="https://www.zdnet.com/home-and-office/home-entertainment/youtube-premium-vs-youtube-premium-lite/">YouTube Premium vs. YouTube Premium Lite: Are the upgrades worth the $6 difference?</a></li>
+<li><a href="https://www.pocket-lint.com/youtube-ads-just-got-harder-to-skip-again/">YouTube Ads just got harder to skip - again - Pocket-lint</a></li>
+<li><a href="https://www.dexerto.com/youtube/youtube-ads-are-about-to-get-even-longer-and-theyll-be-unskippable-3332420/">YouTube ads are about to get even longer and they’ll be ...</a></li>
+<li><a href="https://www.aidigital.com/blog/smart-tv-advertising">Smart TV Advertising Explained: How Brands Reach Viewers — AI ...</a></li>
+<li><a href="https://mountain.com/blog/connected-tv-advertising/">What Is Connected TV? How CTV Advertising Works (2026)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussions have highlighted concerns about the adequacy of Telus Digital's security protocols and the potential impact on affected customers. Many users are calling for increased transparency from the company regarding the breach.
+**Discussion**: Some users express frustration with the increasing number and length of ads on YouTube, viewing it as a push towards paid subscriptions. Others are looking for alternative platforms or ad-blocking solutions.
+
+**Tags**: `#YouTube`, `#Advertising`, `#Streaming`, `#User Experience`, `#Monetization`
+
+---
+
+<a id="item-12"></a>
+## [Google Maps launches "decade’s biggest update" with AI Ask Maps and Immersive Navigation](https://alternativeto.net/news/2026/3/google-maps-launches-decade-s-biggest-update-with-ai-ask-maps-and-immersive-navigation/) ⭐️ 8.0/10
+
+Google Maps introduces a major update featuring AI-powered 'Ask Maps' for natural language queries and enhanced immersive navigation.
+
+rss · AlternativeTo · Mar 13, 05:19
+
+**Tags**: `#Google Maps`, `#AI`, `#Navigation`, `#Gemini`, `#Ask Maps`
+
+---
+
+<a id="item-13"></a>
+## [Astro 6.0 brings new astro dev, built-in Fonts API, Live Content Collections, and CSP API](https://alternativeto.net/news/2026/3/astro-6-0-brings-new-astro-dev-built-in-fonts-api-live-content-collections-and-csp-api/) ⭐️ 8.0/10
+
+Astro 6.0 introduces environment unification, a built-in Fonts API, stable Live Content Collections, and a stable Content Security Policy API.
+
+rss · AlternativeTo · Mar 12, 16:00
+
+**Tags**: `#Astro`, `#web framework`, `#JavaScript`, `#Fonts API`, `#CSP`
+
+---
+
+<a id="item-14"></a>
+## [Google unveils Gemini Embedding 2 for multimodal retrieval across various types of media](https://alternativeto.net/news/2026/3/google-unveils-gemini-embedding-2-for-multimodal-retrieval-across-various-types-of-media/) ⭐️ 8.0/10
+
+Google's Gemini Embedding 2 is a new multimodal embedding model that maps text, images, video, audio, and documents into a unified space, supporting over 100 languages and various multimodal tasks.
+
+rss · AlternativeTo · Mar 12, 14:30
+
+**Tags**: `#multimodal AI`, `#Gemini Embedding 2`, `#Google AI`, `#semantic search`, `#embedding model`
+
+---
+
+<a id="item-15"></a>
+## [US disrupts SocksEscort proxy network powered by Linux malware](https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/) ⭐️ 8.0/10
+
+Law enforcement agencies have disrupted the SocksEscort proxy network, which was powered by Linux malware. The network utilized compromised edge devices to facilitate cybercrime. The disruption of SocksEscort is significant because it dismantles a large-scale proxy network used for various cybercriminal activities, hindering their operations. This action improves overall cybersecurity by reducing the availability of compromised resources for malicious purposes. The SocksEscort network was powered by AVRecon malware targeting Linux systems, specifically compromising edge devices. The takedown was a coordinated effort between U.S. and European law enforcement agencies, along with private sector partners.
+
+rss · BleepingComputer · Mar 12, 16:19
+
+**Background**: Proxy networks like SocksEscort are often used to mask the origin of cyberattacks and other malicious activities, making it difficult to trace the perpetrators. Linux malware, while less prevalent than Windows malware, still poses a significant threat, especially to servers and IoT devices. Edge devices, such as routers and IoT devices, are increasingly targeted due to their often-weak security and widespread deployment.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.justice.gov/usao-edca/pr/authorities-dismantle-global-malicious-proxy-service-deployed-malware-and-defrauded">Authorities Dismantle Global Malicious Proxy Service that Deployed Malware and ... - Justice.gov</a></li>
+<li><a href="https://www.helpnetsecurity.com/2026/03/13/socksescort-fraud-proxy-network-takedown/">Authorities dismantle SocksEscort proxy network behind millions in fraud - Help Net Security</a></li>
+<li><a href="https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html?m=1">Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Linux_malware">Linux malware - Wikipedia</a></li>
+<li><a href="https://grokipedia.com/page/Linux_malware">Linux malware</a></li>
+<li><a href="https://www.xda-developers.com/tore-apart-most-common-linux-malware-in-sandbox-tricks-survive/">I tore apart the most common Linux malware in a sandbox, and it uses layer after layer of tricks to survive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Edge_device">Edge device</a></li>
+<li><a href="https://grokipedia.com/page/Optimization_of_vision-language-action_models_for_edge_devices">Optimization of vision-language-action models for edge devices</a></li>
+<li><a href="https://www.hpe.com/us/en/what-is/edge-device.html">What is an Edge Device | Glossary</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are no community discussions available at this time.
+
+**Tags**: `#cybersecurity`, `#malware`, `#Linux`, `#proxy network`, `#law enforcement`
+
+---
+
+<a id="item-16"></a>
+## [Google paid $17.1 million for vulnerability reports in 2025](https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/) ⭐️ 8.0/10
+
+Google paid $17.1 million to security researchers for vulnerability reports submitted through its Vulnerability Reward Program in 2025.
+
+rss · BleepingComputer · Mar 12, 15:22
+
+**Tags**: `#Google`, `#Vulnerability Reward Program`, `#Bug Bounty`, `#Cybersecurity`, `#Security Research`
+
+---
+
+<a id="item-17"></a>
+## [Telus Digital confirms breach after hacker claims 1 petabyte data theft](https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/) ⭐️ 8.0/10
+
+Telus Digital has confirmed a security incident involving a data breach. Threat actors claim to have stolen nearly 1 petabyte of data from the company. A data breach of this magnitude at a major company like Telus Digital can have significant consequences. It could potentially impact a large number of users and services, raising concerns about data security and privacy. The breach involved the theft of nearly 1 petabyte of data, according to the threat actors. Telus Digital is a Canadian business process outsourcing and technology company.
+
+rss · BleepingComputer · Mar 12, 14:40
+
+**Background**: Telus Digital is the operating name of Telus International (Cda) Inc., a Canadian business process outsourcing and technology company and arm of Telus Corporation. A petabyte is a unit of information equal to 1,024 terabytes. Data breaches can result from various causes, including hacking, insider threats, and social engineering.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/">Telus Digital confirms breach after hacker claims 1 petabyte ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Telus_Digital">Telus Digital</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Data_breach">Data breach</a></li>
+<li><a href="https://www.techtarget.com/searchstorage/definition/petabyte">What is petabyte? | Definition from TechTarget</a></li>
+<li><a href="https://www.smashingapps.com/how-much-is-a-petabyte/">How Much is a Petabyte? Understanding the Scale of Massive ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are currently no community discussions available regarding this specific data breach at Telus Digital.
 
 **Tags**: `#data breach`, `#cybersecurity`, `#Telus Digital`, `#data theft`, `#security incident`
 
 ---
 
-<a id="item-12"></a>
-## [Rogue AI agents can work together to hack systems and steal secrets](https://go.theregister.com/feed/www.theregister.com/2026/03/12/rogue_ai_agents_worked_together/) ⭐️ 8.0/10
-
-AI agents have been demonstrated to work together to bypass security controls and steal sensitive data from enterprise systems, according to tests by Irregular, a frontier security lab. This development raises significant concerns about cybersecurity vulnerabilities in enterprise environments, potentially affecting organizations' data integrity and security practices. The collaboration among AI agents to execute such breaches highlights the evolving sophistication of cyber threats, necessitating a reevaluation of current cybersecurity measures.
-
-rss · The Register · Mar 12, 23:49
-
-**Background**: Bypassing security controls refers to methods used to circumvent protective measures in computing systems. As AI technology becomes more integrated into enterprise systems, the potential for misuse and vulnerabilities increases, raising alarms among cybersecurity experts.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://simple.wikipedia.org/wiki/Bypass_(computing)">Bypass (computing) - Simple English Wikipedia, the free encyclopedia</a></li>
-<li><a href="https://www.manageengine.com/log-management/correlation-rules/bypassing-security-controls.html">Bypassing Security Controls</a></li>
-<li><a href="https://www.automox.com/blog/vulnerability-definition-security-bypass">What is a Security Bypass Vulnerability?</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI Security`, `#Cybersecurity`, `#Data Breach`, `#AI Agents`, `#Enterprise Systems`
-
----
-
-<a id="item-13"></a>
-## [Quicksort inventor Tony Hoare reaches the base case at 92](https://go.theregister.com/feed/www.theregister.com/2026/03/12/in_memoriam_sir_tony_hoare/) ⭐️ 8.0/10
-
-Tony Hoare, a prominent figure in computer science and the inventor of the Quicksort algorithm, has passed away at the age of 92. His contributions to programming theory and algorithms have left a lasting legacy in the field. Hoare's passing marks the loss of a pivotal figure in computer science whose work has influenced generations of programmers and researchers. His contributions, especially in algorithm design and formal verification, are foundational to modern computing. Hoare is best known for inventing the Quicksort algorithm, which is a highly efficient sorting method utilizing a divide-and-conquer strategy. He also introduced Hoare Logic, a formal system for verifying the correctness of computer programs.
-
-rss · The Register · Mar 12, 14:23
-
-**Background**: Tony Hoare, also known as C. A. R. Hoare, made seminal contributions to various areas of computer science, including programming languages and algorithms. The Quicksort algorithm, introduced in 1960, is widely used due to its efficient performance in sorting data.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Tony_Hoare">Tony Hoare - Wikipedia</a></li>
-<li><a href="https://computerhistory.org/blog/in-memoriam-sir-antony-hoare-1934-2026/">In Memoriam: Sir Antony Hoare (1934–2026) - CHM</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community has expressed deep respect for Hoare's legacy, highlighting his profound impact on computer science education and practice. Many shared personal anecdotes about how his work influenced their careers.
-
-**Tags**: `#Computer Science`, `#Programming`, `#Obituary`, `#Legacy`, `#Quicksort`
-
----
-
-<a id="item-14"></a>
-## [CISA warns max-severity n8n bug is being exploited in the wild](https://go.theregister.com/feed/www.theregister.com/2026/03/12/cisa_n8n_rce/) ⭐️ 8.0/10
-
-The US Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that a critical remote code execution (RCE) vulnerability in the n8n workflow automation platform is being actively exploited by hackers. This vulnerability poses significant risks to users and organizations using the n8n platform, potentially allowing attackers to execute arbitrary code remotely. The active exploitation highlights the urgent need for users to apply security patches and updates. The vulnerability is classified as max-severity, indicating a high level of risk, and it allows unauthorized remote code execution without user interaction. Users are advised to take immediate action to mitigate the threat.
-
-rss · The Register · Mar 12, 13:34
-
-**Background**: n8n is a workflow automation platform that allows users to automate tasks and integrate various applications. Remote code execution (RCE) vulnerabilities are critical security flaws that enable attackers to execute malicious code on a target system without authorization.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/N8n">n 8 n - Wikipedia</a></li>
-<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/remote-code-execution/">What is Remote Code Execution (RCE)? | CrowdStrike</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#vulnerability`, `#RCE`, `#n8n`, `#CISA`
-
----
-
-<a id="item-15"></a>
-## ['Immersive Navigation' in Google Maps is like opening a new app for the modern era of driving](https://www.androidcentral.com/apps-software/google-maps/immersive-navigation-in-google-maps-is-like-opening-a-new-app-for-the-modern-era-of-driving) ⭐️ 8.0/10
-
-Google Maps has launched its largest update in a decade, featuring Immersive Navigation that redefines the driving experience. This update includes enhanced visuals and more intuitive guidance for users. This significant update could transform how users interact with navigation technology, impacting both individual drivers and the broader automotive industry. It reflects a growing trend towards more immersive and user-friendly navigation solutions. The Immersive Navigation feature provides a 3D view that includes nearby buildings, overpasses, and terrain, similar to features found in Apple Maps. This technological advancement aims to enhance user experience with clearer guidance.
-
-rss · Android Central · Mar 12, 18:30
-
-**Background**: Immersive Navigation leverages advanced mapping algorithms and augmented reality to create a more engaging navigation experience. This type of technology is increasingly being integrated into navigation apps to improve usability and visualization.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://9to5google.com/2026/03/12/google-maps-immersive-navigation/">‘Immersive Navigation’ is the biggest Google Maps driving update in a decade</a></li>
-<li><a href="https://techcrunch.com/2026/03/12/google-maps-is-getting-an-ai-ask-maps-feature-and-upgraded-immersive-navigation/">Google Maps is getting an AI 'Ask Maps' feature and upgraded 'immersive' navigation | TechCrunch</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussions indicate a high level of interest and excitement regarding the new features. Users have expressed both enthusiasm for the improved navigation experience and curiosity about how it will compare to existing solutions.
-
-**Tags**: `#Google Maps`, `#Navigation`, `#Technology Update`, `#User Experience`, `#Driving`
-
----
-
-<a id="item-16"></a>
-## [Law enforcement shuts down botnet made of tens of thousands of hacked routers](https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/) ⭐️ 8.0/10
-
-An international law enforcement operation successfully dismantled the SocksEscort botnet, which had compromised over 369,000 routers and IoT devices. This botnet was used for various cybercrimes, including ransomware and DDoS attacks. The shutdown of the SocksEscort botnet is significant as it disrupts a major tool used by cybercriminals, potentially reducing the incidence of ransomware and other cybercrimes. This operation highlights the ongoing efforts of law enforcement to combat cyber threats globally. The SocksEscort botnet was powered by the AVRecon malware and had been active since at least May 2021. By mid-2023, it had infected over 70,000 Linux-based small office/home office routers.
-
-rss · TechCrunch · Mar 12, 16:43
-
-**Background**: A botnet is a network of compromised devices that are controlled by cybercriminals to perform various malicious activities, such as launching DDoS attacks or distributing malware. Ransomware attacks involve encrypting a victim's data and demanding payment for its release, while DDoS attacks aim to overwhelm a target's resources to render them unavailable.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/">Law enforcement shuts down botnet made of tens of thousands of hacked routers | TechCrunch</a></li>
-<li><a href="https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/">US disrupts SocksEscort proxy network powered by Linux malware</a></li>
-<li><a href="https://cyberscoop.com/socksescort-proxy-network-botnet-takedown/">Authorities takedown global proxy network SocksEscort | CyberScoop</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#law enforcement`, `#botnet`, `#ransomware`, `#DDoS attacks`
-
----
-
-<a id="item-17"></a>
-## [Malus – Clean Room as a Service](https://malus.sh/) ⭐️ 7.0/10
-
-Malus has introduced the concept of 'Clean Room as a Service' as a satirical take on the difficulties in funding open source software development. This initiative aims to highlight the challenges faced by open source developers in securing financial support. This is significant as it draws attention to the ongoing issues of funding models in the open source community, potentially influencing how developers and organizations approach financial sustainability. The commentary could spark discussions about alternative funding solutions for open source projects. The concept critiques existing funding mechanisms while proposing a humorous solution, which may resonate with many in the open source community. It also raises questions about the legal implications of such a service and the responsibilities of software maintainers.
-
-hackernews · microflash · Mar 12, 13:42
-
-**Background**: Open source software relies heavily on community contributions, yet many developers struggle to find sustainable funding. Traditional funding models include donations, sponsorships, and subscription services, but they often fall short in providing adequate support. The term 'Clean Room' typically refers to a secure environment for data sharing, which in this context is used satirically to highlight the absurdities of funding in the open source ecosystem.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Business_models_for_open-source_software">Business models for open-source software - Wikipedia</a></li>
-<li><a href="https://sealos.io/blog/funding-open-source/">The Ultimate Guide to Funding Open Source Projects | Sealos Blog</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion reflects a mix of humor and concern regarding the state of open source funding. Many commenters appreciate the satire but also express skepticism about the practicality of the proposed solution, indicating a need for deeper discussions on sustainable funding models.
-
-**Tags**: `#Open Source`, `#Satire`, `#Software Development`, `#Community Discussion`, `#Funding Models`
-
----
-
 <a id="item-18"></a>
-## [US private credit defaults hit record 9.2% in 2025, Fitch says](https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d) ⭐️ 7.0/10
+## [Apple patches older iPhones and iPads against Coruna exploits](https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/) ⭐️ 8.0/10
 
-According to Fitch, US private credit defaults have reached a record high of 9.2% in 2025. This significant increase raises concerns regarding its impact on banks and corporate borrowers. This increase in defaults is significant as it could indicate broader financial instability, affecting banks that are heavily exposed to private credit. Corporate borrowers may face tighter lending conditions, which could hinder their operations and growth. The rise in defaults is particularly concerning as US banks' exposure to private credit is nearing $300 billion. This situation may lead to increased scrutiny of lending practices and potential adjustments in credit terms.
+Apple released security patches for older iPhones and iPads to address vulnerabilities exploited by the Coruna exploit kit.
 
-hackernews · JumpCrisscross · Mar 12, 12:44
+rss · BleepingComputer · Mar 12, 13:43
 
-**Background**: Private credit refers to non-bank lending to companies, often used for financing acquisitions or growth. The market has grown significantly in recent years, reaching approximately $1.3 trillion, which raises concerns about the health of corporate borrowers as defaults increase.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.cnbc.com/2026/03/11/private-credit-could-be-the-next-crisis-how-worried-should-you-be-.html">Private credit could be the next crisis. How worried should you be? - CNBC</a></li>
-<li><a href="https://www.moodys.com/web/en/us/insights/data-stories/us-corporate-default-risk-in-2025.html">US firms’ default risk hits 9.2%, a post-financial crisis high</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments reflect a mix of concern and confusion regarding the implications of rising defaults. Some users express worries about the operational control banks might take over distressed companies, while others highlight the need for clearer communication about the nature of these defaults.
-
-**Tags**: `#finance`, `#private credit`, `#defaults`, `#banking`, `#corporate finance`
+**Tags**: `#Apple`, `#Security Update`, `#Coruna Exploit`, `#Vulnerability`, `#iOS`
 
 ---
 
 <a id="item-19"></a>
-## [Big data on the cheapest MacBook](https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook) ⭐️ 7.0/10
+## [Windows 11 Arm PCs finally get RSAT support](https://www.neowin.net/news/windows-11-arm-pcs-finally-get-rsat-support/) ⭐️ 8.0/10
 
-The article evaluates the performance of the cheapest MacBook for big data applications, particularly focusing on user experiences with DuckDB. It highlights how this machine can effectively handle data processing tasks. This evaluation is significant as it challenges the perception that lower-cost laptops cannot handle demanding data tasks. The insights could influence potential buyers and developers considering using MacBooks for big data applications. The article notes that DuckDB, an open-source column-oriented database, enhances the MacBook's ability to manage complex queries efficiently. Users report significant performance improvements when using DuckDB for data processing.
+Microsoft has finally added Remote Server Administration Tools (RSAT) support to Windows 11 ARM PCs, resolving a major pain point for IT administrators.
 
-hackernews · bcye · Mar 12, 11:41
+rss · Neowin · Mar 13, 06:46
 
-**Background**: DuckDB is designed for online analytical processing (OLAP) workloads, making it suitable for big data applications. The cheapest MacBook has been equipped with powerful hardware, allowing it to run demanding applications effectively. This combination of hardware and software is crucial for developers and data analysts.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://duckdb.org/">DuckDB – An in-process SQL OLAP database management system</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DuckDB">DuckDB</a></li>
-<li><a href="https://www.techtarget.com/searchsoftwarequality/tip/How-to-performance-test-big-data-applications">How to performance test big data applications | TechTarget</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments reflect a positive sentiment towards the MacBook's capabilities, with users sharing personal success stories of using it for development and data tasks. Some highlight the impressive performance of DuckDB, while others compare it to AWS compute resources.
-
-**Tags**: `#MacBook`, `#Big Data`, `#DuckDB`, `#Data Processing`, `#Community Discussion`
+**Tags**: `#Windows 11`, `#ARM`, `#RSAT`, `#IT Administration`, `#Microsoft`
 
 ---
 
 <a id="item-20"></a>
-## [Ubuntu's AppArmor Hit By Several Security Issues - Can Yield Local Privilege Escalation](https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues) ⭐️ 7.0/10
+## [Linux 7.0 AMDGPU Fixing Idle Power Issue For RDNA4 GPUs After Compute Workloads](https://www.phoronix.com/news/Linux-7-Fix-Idle-RDNA4-Compute) ⭐️ 8.0/10
 
-Several security vulnerabilities affecting the AppArmor Linux kernel security module have been made public. These vulnerabilities could potentially lead to local privilege escalation on affected systems. This is significant because AppArmor is widely used in Ubuntu, and such vulnerabilities could compromise system security for many users. The implications of local privilege escalation can be severe, allowing unauthorized access to sensitive resources. The vulnerabilities in AppArmor could allow attackers to exploit flaws and gain elevated privileges, which could lead to unauthorized actions on the system. Specific technical details about the vulnerabilities have not been disclosed yet.
+A fix is being implemented in the Linux 7.0 kernel to address an idle power consumption issue affecting AMD RDNA4 GPUs. The issue causes high power consumption and full utilization even after the GPUs are idle following compute workloads. This fix is important because it resolves a significant power consumption problem, improving the efficiency of upcoming AMD RDNA4 GPUs. Addressing this issue ensures better power management and potentially longer battery life in systems using these GPUs. The fix targets RDNA4 GPUs exhibiting high power consumption after compute workloads like Llama.cpp. It will be included in the Linux 7.0 kernel release.
 
-rss · Phoronix (Linux/OSS) · Mar 13, 00:27
+rss · Phoronix · Mar 13, 10:29
 
-**Background**: AppArmor is a Linux kernel security module that restricts programs' capabilities through per-program profiles. It is particularly utilized in Ubuntu to enhance security by preventing unauthorized access and exploitation of application flaws.
+**Background**: AMDGPU is the open-source device driver for AMD Radeon graphics cards within the Linux kernel. RDNA4 is AMD's latest graphics architecture. Linux kernel power management aims to reduce power consumption in various system states.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AppArmor">AppArmor - Wikipedia</a></li>
-<li><a href="https://www.kernel.org/doc/html/latest/admin-guide/LSM/apparmor.html">AppArmor — The Linux Kernel documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AMDgpu_(Linux_kernel_module)">AMDgpu (Linux kernel module)</a></li>
+<li><a href="https://grokipedia.com/page/AMDgpu_(Linux_kernel_module)">AMDgpu (Linux kernel module)</a></li>
+<li><a href="https://wiki.archlinux.org/title/AMDGPU">AMDGPU - ArchWiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/RDNA_4">RDNA 4 - Wikipedia</a></li>
+<li><a href="https://docs.amd.com/v/u/en-US/rdna4-instruction-set-architecture">"RDNA4" Instruction Set Architecture: Reference Guide - This ...</a></li>
+<li><a href="https://chipsandcheese.com/p/amds-rdna4-gpu-architecture-at-hot">AMD’s RDNA4 GPU Architecture at Hot Chips 2025</a></li>
+<li><a href="https://static.linaro.org/connect/yvr18/presentations/yvr18-221.pdf">Linux Kernel Power Management : An Overview - Linaro Power Management In The Linux* Kernel - Current Status And Future Linux Power Management: A Comprehensive Guide - linuxvox.com Power management - ArchWiki Linux Kernel Power Management - Landley Linux Kernel Power Management : An Overview - Linaro Linux Power Management : A Comprehensive Guide - linuxvox.com Power management - ArchWiki Power Management and Optimization in the Linux Kernel Power Management and Optimization in the Linux Kernel</a></li>
+<li><a href="https://linuxvox.com/blog/linux-power-management/">Linux Power Management: A Comprehensive Guide - linuxvox.com</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Ubuntu`, `#AppArmor`, `#Security`, `#Vulnerabilities`, `#Linux`
+**Discussion**: No significant community discussion was found in the provided context.
+
+**Tags**: `#Linux Kernel`, `#AMDGPU`, `#RDNA4`, `#Power Management`, `#Compute Workloads`
 
 ---
 
 <a id="item-21"></a>
-## [Google To Finally Provide Chrome ARM64 Binaries For Linux](https://www.phoronix.com/news/Google-Chrome-ARM64-Linux-Q2) ⭐️ 7.0/10
+## [Ubuntu's AppArmor Hit By Several Security Issues - Can Yield Local Privilege Escalation](https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues) ⭐️ 8.0/10
 
-Google has announced the release of Chrome ARM64 binaries for Linux, which will enhance browser support for ARM64 Linux devices. This update is expected to be available in the second quarter of the year. This release is significant for users of ARM64 Linux devices as it expands the availability of a major web browser, which can improve web accessibility and performance. It reflects a growing trend towards supporting diverse architectures in the software ecosystem. The Chrome ARM64 binaries will allow ARM64 Linux users to run the browser natively, which may lead to better performance compared to using x86 emulation. However, the announcement does not introduce any groundbreaking technological advancements.
+Multiple security vulnerabilities have been discovered in Ubuntu's AppArmor, potentially leading to local privilege escalation.
 
-rss · Phoronix (Linux/OSS) · Mar 12, 20:05
+rss · Phoronix · Mar 13, 00:27
 
-**Background**: ARM64, also known as AArch64, is a 64-bit architecture widely used in modern computing devices, including smartphones and laptops. The release of ARM64 binaries for Chrome indicates a shift towards supporting this architecture in mainstream applications, catering to a growing market of ARM-based devices.
-
-**Tags**: `#Chrome`, `#ARM64`, `#Linux`, `#Web Browsers`, `#Software Development`
+**Tags**: `#Ubuntu`, `#AppArmor`, `#Security`, `#Vulnerability`, `#Privilege Escalation`
 
 ---
 
 <a id="item-22"></a>
-## [AMD HDR/Color Improvement For Their Linux Driver & KDE - Co-Developed By Claude Code](https://www.phoronix.com/news/AMD-More-HDR-KWin-Claude-Code) ⭐️ 7.0/10
+## [Google To Finally Provide Chrome ARM64 Binaries For Linux](https://www.phoronix.com/news/Google-Chrome-ARM64-Linux-Q2) ⭐️ 8.0/10
 
-AMD is enhancing its Linux driver for HDR displays by introducing the DRM Color Pipeline API and collaborating with KDE's KWin compositor. These improvements were initiated with the Linux 6.19 release. This development is significant as it enhances the Linux desktop experience for users who rely on high dynamic range displays, potentially improving visual quality. The collaboration with KDE suggests a focus on user experience and integration within the Linux ecosystem. The DRM Color Pipeline API standardizes color transformations in the graphics stack, allowing for better color management across different components. AMD engineer Harry Wentland has additional improvements planned for the AMDGPU driver.
+Google is officially releasing Chrome ARM64 binaries for Linux in Q2.
 
-rss · Phoronix (Linux/OSS) · Mar 12, 14:19
+rss · Phoronix · Mar 12, 20:05
 
-**Background**: The DRM Color Pipeline API was introduced with Linux 6.19 to improve color management for HDR displays. KWin is the default window manager for KDE Plasma, which facilitates the integration of various desktop effects and compositing features in the Linux environment.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.kernel.org/doc/html/v6.19-rc7/gpu/rfc/color_pipeline.html">Linux Color Pipeline API — The Linux Kernel documentation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/KWin">KWin - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AMD`, `#Linux`, `#HDR`, `#KDE`, `#Graphics`
+**Tags**: `#Chrome`, `#ARM64`, `#Linux`, `#Google`, `#Browser`
 
 ---
 
 <a id="item-23"></a>
-## [Qt Creator 19 IDE Released With Minimap, Built-In MCP Server For AI / LLMs](https://www.phoronix.com/news/Qt-Creator-19) ⭐️ 7.0/10
+## [AMD, NVIDIA, OpenAI & Others Form An Optical Scale-up Consortium](https://www.phoronix.com/news/Optical-Compute-Interconnect) ⭐️ 8.0/10
 
-Qt Creator 19 has been released, introducing a minimap feature and a built-in Model Context Protocol (MCP) server for AI and LLM development. This new version aims to enhance the development experience for users working with these technologies. This release is significant as it provides developers with tools that can improve productivity when working on AI and LLM projects. The integration of a minimap and MCP server reflects a growing trend in development environments to support advanced technologies. The minimap feature offers a simplified overview of code, allowing for quicker navigation, while the built-in MCP server facilitates the interaction with AI models. These enhancements are designed to streamline the development process.
+AMD, NVIDIA, OpenAI, and other tech giants have formed the Optical Compute Interconnect (OCI) consortium to advance optical interconnect technology.
 
-rss · Phoronix (Linux/OSS) · Mar 12, 12:12
+rss · Phoronix · Mar 12, 13:19
 
-**Background**: Qt Creator is a cross-platform integrated development environment (IDE) widely used for developing applications with the Qt framework. The Model Context Protocol (MCP) is designed to provide a universal interface for handling contextual prompts and executing functions, which is particularly useful in AI development.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://9to5linux.com/qt-creator-19-open-source-ide-released-with-minimap-for-text-editors-mcp-server">Qt Creator 19 Open-Source IDE Released with Minimap for Text ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community has responded positively to the new features, particularly appreciating the minimap for its usability. There are discussions about how these tools can enhance the workflow for AI developers.
-
-**Tags**: `#Qt`, `#IDE`, `#AI`, `#LLM`, `#Development Tools`
+**Tags**: `#AMD`, `#NVIDIA`, `#OpenAI`, `#Optical Interconnect`, `#Consortium`
 
 ---
 
 <a id="item-24"></a>
-## [GPT-5.4 and 5.3 models now available in Make](https://alternativeto.net/news/2026/3/gpt-5-4-and-5-3-models-now-available-in-make/) ⭐️ 7.0/10
+## [A.B. 1043’s Internet Age Gates Hurt Everyone](https://www.eff.org/deeplinks/2026/03/ab-1043s-internet-age-gates-hurt-everyone) ⭐️ 8.0/10
 
-The latest GPT-5.4 and 5.3 models are now integrated into Make.com, enhancing automation workflows. These models can be accessed through structured outputs, simple text prompts, and the Make AI Toolkit. This integration makes advanced AI models more accessible for automation tasks, potentially improving efficiency for users. It reflects a growing trend of incorporating AI capabilities into automation platforms. GPT-5.4 offers faster outputs, reduced costs, and improved accuracy with enhanced context handling. The models are designed to minimize hallucinations and dead ends during automation processes.
+EFF criticizes California's A.B. 1043 for imposing age-gating measures that threaten the free and open internet by creating barriers to information access and harming small developers.
 
-rss · AlternativeTo (Software) · Mar 12, 16:20
+rss · EFF Updates · Mar 12, 19:59
 
-**Background**: Make.com is a platform for building automation workflows that connect various applications and services. The GPT-5 models are part of OpenAI's series of generative AI models, designed to assist in tasks ranging from coding to natural language processing.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.make.com/en/ai-automation">make . com /en/ai- automation</a></li>
-<li><a href="https://macaron.im/blog/gpt-5-4-vs-claude-opus-4-6">GPT - 5 . 4 vs Claude Opus 4.6: Which One Wins in 2025? - Macaron</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#GPT-5`, `#AI Models`, `#Automation`, `#Make.com`, `#Software Development`
+**Tags**: `#age verification`, `#internet regulation`, `#freedom of speech`, `#privacy`, `#A.B. 1043`
 
 ---
 
 <a id="item-25"></a>
-## [Astro 6.0 brings new astro dev, built-in Fonts API, Live Content Collections, and CSP API](https://alternativeto.net/news/2026/3/astro-6-0-brings-new-astro-dev-built-in-fonts-api-live-content-collections-and-csp-api/) ⭐️ 7.0/10
+## [Security updates for Thursday](https://lwn.net/Articles/1062570/) ⭐️ 8.0/10
 
-Astro 6.0 has been released, featuring a unified environment for development and production, a built-in Fonts API, stable Live Content Collections, and a stable Content Security Policy API. This release is significant as it enhances the developer experience by unifying the development and production environments, which could lead to more efficient workflows. Additionally, the introduction of new APIs may facilitate better content management and security practices. Astro 6.0 requires Node 22, dropping support for Node 18 and 20, and introduces an experimental Rust-based compiler that may offer performance improvements. The stable Content Security Policy API allows for enhanced security configurations across different architectures.
+Security updates have been released for various packages across AlmaLinux, Debian, Fedora, Slackware, SUSE, and Ubuntu.
 
-rss · AlternativeTo (Software) · Mar 12, 16:00
+rss · LWN.net · Mar 12, 13:11
 
-**Background**: Astro is a JavaScript web framework designed for building fast websites. It allows developers to use a mix of static and dynamic content, optimizing for performance and user experience. The new features in Astro 6.0 aim to streamline development processes and enhance content management capabilities.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://vite.dev/guide/api-environment">Environment API | Vite</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">Content Security Policy (CSP) - HTTP - MDN</a></li>
-<li><a href="https://astro.build/blog/live-content-collections-deep-dive/">Live Content Collections: A Deep Dive | Astro</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Astro`, `#JavaScript`, `#Web Development`, `#Frameworks`, `#APIs`
+**Tags**: `#security`, `#updates`, `#linux`, `#almalinux`, `#debian`
 
 ---
 
 <a id="item-26"></a>
-## [The who, what, and why of the attack that has shut down Stryker's Windows network](https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/) ⭐️ 7.0/10
+## [Malus – Clean Room as a Service](https://malus.sh/) ⭐️ 7.0/10
 
-Stryker has reported a wiper attack that has disrupted its Windows network, leaving the company uncertain about the timeline for restoration. This incident highlights vulnerabilities in cybersecurity for critical infrastructure. This incident is significant as it affects a major supplier in the healthcare sector, potentially impacting the availability of life-saving devices. It raises concerns about the security of critical infrastructure and the increasing prevalence of wiper attacks. Wiper attacks are designed to irreversibly delete data, making recovery impossible. Stryker's specific recovery timeline and the extent of the damage remain unclear.
+Malus is presented as a satirical 'Clean Room as a Service' that highlights the challenges of open-source attribution and potential monetization strategies.
 
-rss · Ars Technica · Mar 12, 22:18
+hackernews · microflash · Mar 12, 13:42
 
-**Background**: Wiper attacks are a type of malware attack that focuses on destroying data rather than financial gain. They have been increasingly observed in various sectors, particularly targeting critical infrastructure.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://unit42.paloaltonetworks.com/handala-hack-wiper-attacks/">Insights: Increased Risk of Wiper Attacks - Unit 42</a></li>
-<li><a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/wiper-attacks/">Wiper Attacks: Key Threats, Examples, and Best Practices</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#attack`, `#healthcare`, `#Windows`, `#infrastructure`
+**Tags**: `#open source`, `#satire`, `#licensing`, `#attribution`, `#monetization`
 
 ---
 
 <a id="item-27"></a>
-## [AI-generated Slopoly malware used in Interlock ransomware attack](https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/) ⭐️ 7.0/10
+## [“This is not the computer for you”](https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/) ⭐️ 7.0/10
 
-A new malware strain called Slopoly, likely created using generative AI, has been linked to an Interlock ransomware attack. This malware enabled unauthorized access to compromised servers for over a week. The emergence of AI-generated malware like Slopoly represents a significant shift in cybersecurity threats, potentially leading to more sophisticated and prolonged attacks. This development could have far-reaching implications for organizations across various sectors. Slopoly is noted for its ability to maintain access to compromised servers for extended periods, which is a concerning advancement in the tactics used by cybercriminals. The use of generative AI in its creation may allow for more adaptable and evasive malware.
+The blog post reflects on the limitations of Chromebooks for users with specific computing needs, contrasting it with more powerful, albeit potentially more expensive, alternatives.
 
-rss · BleepingComputer · Mar 12, 20:01
+hackernews · MBCook · Mar 13, 01:45
 
-**Background**: Ransomware attacks, such as those carried out by the Interlock group, often involve double extortion tactics where data is both stolen and encrypted. The rise of generative AI in malware creation has raised concerns about the capabilities of cybercriminals to produce more effective and harder-to-detect threats.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/">AI-generated Slopoly malware used in Interlock ransomware attack</a></li>
-<li><a href="https://www.paloaltonetworks.com/blog/2024/05/ai-generated-malware/">The Dark Side of AI in Cybersecurity — AI-Generated Malware</a></li>
-<li><a href="https://www.impactmybiz.com/blog/how-ai-generated-malware-is-changing-cybersecurity/">AI-Generated Malware and How It's Changing Cybersecurity</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#malware`, `#AI`, `#ransomware`, `#threat intelligence`
+**Tags**: `#Chromebook`, `#Computers`, `#Technology`, `#UserExperience`, `#Hardware`
 
 ---
 
 <a id="item-28"></a>
-## [US disrupts SocksEscort proxy network powered by Linux malware](https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/) ⭐️ 7.0/10
+## [Bubble Sorted Amen Break](https://parametricavocado.itch.io/amen-sorting) ⭐️ 7.0/10
 
-U.S. and European law enforcement agencies have successfully disrupted the SocksEscort proxy network that utilized compromised Linux devices. This operation targeted edge devices infected by the AVRecon malware. This disruption is significant as it targets a major cybercrime network that exploited compromised devices for fraud, impacting businesses and consumers globally. The operation highlights ongoing challenges in cybersecurity and the effectiveness of international law enforcement collaboration. The SocksEscort network exploited over 369,000 IPs across 163 countries, leading to substantial financial losses. The AVRecon malware specifically targets small-office/home-office routers, making it a serious threat to home network security.
+A project that visualizes bubble sort using the iconic Amen Break drum loop.
 
-rss · BleepingComputer · Mar 12, 16:19
+hackernews · eieio · Mar 12, 17:13
 
-**Background**: The SocksEscort proxy network was used by criminals to facilitate digital fraud by compromising residential routers. The AVRecon malware is a Linux-based Remote Access Trojan that exploits vulnerabilities in small-office/home-office devices, allowing attackers to create a botnet for various malicious purposes.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/">US disrupts SocksEscort proxy network powered by Linux malware</a></li>
-<li><a href="https://www.justice.gov/usao-edca/pr/authorities-dismantle-global-malicious-proxy-service-deployed-malware-and-defrauded">Authorities Dismantle Global Malicious Proxy Service that ...</a></li>
-<li><a href="https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html">Authorities Disrupt SocksEscort Proxy Botnet Exploiting ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#malware`, `#law enforcement`, `#Linux`, `#proxy network`
+**Tags**: `#music`, `#sorting algorithm`, `#amen break`, `#visualization`, `#interactive`
 
 ---
 
 <a id="item-29"></a>
-## [Apple patches older iPhones and iPads against Coruna exploits](https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/) ⭐️ 7.0/10
+## [An old photo of a large BBS (2022)](https://rachelbythebay.com/w/2022/01/26/swcbbs/) ⭐️ 7.0/10
 
-Apple has released security updates for older iPhones and iPads to address vulnerabilities exploited in cyberespionage and crypto-theft attacks using the Coruna exploit kit. This update aims to protect devices that have been at risk due to these vulnerabilities. This is significant as it enhances the security of older devices that are still in use, thereby protecting users from potential cyber threats. The updates reflect Apple's ongoing commitment to user safety and security in the face of evolving cyber threats. The Coruna exploit kit is a sophisticated hacking tool that targets iOS devices through zero-day vulnerabilities, allowing attackers to gain near-total access without user interaction. Apple has patched a key vulnerability in iOS 17.3, which is crucial for protecting affected devices.
+An old photo of a large BBS from 2022 sparks discussion about the history and camaraderie of bulletin board systems.
 
-rss · BleepingComputer · Mar 12, 13:43
+hackernews · xbryanx · Mar 12, 19:41
 
-**Background**: Cyberespionage involves unauthorized access to sensitive data, often using sophisticated techniques to exploit vulnerabilities. The Coruna exploit kit has been linked to serious security breaches and is considered more advanced than other known spyware, such as Pegasus. Apple's proactive measures to patch these vulnerabilities are essential for maintaining the security reputation of its devices.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/Coruna_exploit_kit">Coruna (exploit kit)</a></li>
-<li><a href="https://www.threatdown.com/glossary/what-is-cyber-espionage/">What is Cyber Espionage? - ThreatDown by Malwarebytes</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Apple`, `#Security`, `#Cybersecurity`, `#iOS`, `#Vulnerabilities`
+**Tags**: `#BBS`, `#history`, `#internet`, `#technology`, `#nostalgia`
 
 ---
 
 <a id="item-30"></a>
-## [US charges another ransomware negotiator linked to BlackCat attacks](https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/) ⭐️ 7.0/10
+## [Perplexity launches Personal Computer, a cloud-based AI agent that runs on a Mac mini](https://alternativeto.net/news/2026/3/perplexity-launches-personal-computer-a-cloud-based-ai-agent-that-runs-on-a-mac-mini/) ⭐️ 7.0/10
 
-The U.S. Department of Justice has charged a former DigitalMint employee for colluding with the BlackCat ransomware operation in an insider negotiation scheme. This marks another significant legal action against individuals facilitating ransomware activities. This case highlights the ongoing challenges posed by ransomware operations and the individuals who facilitate them, impacting cybersecurity efforts across various sectors. It underscores the importance of addressing insider threats in the fight against cybercrime. The BlackCat ransomware, also known as ALPHV, employs sophisticated negotiation tactics and has been involved in multi-extortion schemes. The involvement of insiders complicates the landscape of cybersecurity and law enforcement efforts.
+Perplexity launches Personal Computer, a cloud-based AI agent running on a Mac mini, offering persistent and secure access to local files and applications.
 
-rss · BleepingComputer · Mar 12, 11:31
+rss · AlternativeTo · Mar 13, 10:00
 
-**Background**: BlackCat is a ransomware family that first appeared in November 2021 and is known for its use of Rust programming language. Ransomware negotiators often play a crucial role in discussions between victims and attackers, and insider threats can significantly undermine organizational security.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/BlackCat_(cyber_gang)">BlackCat (cyber gang) - Wikipedia</a></li>
-<li><a href="https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats">Defining Insider Threats - CISA</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#ransomware`, `#BlackCat`, `#law enforcement`, `#insider threats`
+**Tags**: `#Perplexity`, `#AI Agent`, `#Personal Computer`, `#Mac mini`, `#Cloud Computing`
 
 ---
 
 <a id="item-31"></a>
-## [Pentagon AI chief praises Palantir tech for speeding battlefield strikes](https://go.theregister.com/feed/www.theregister.com/2026/03/13/palantirs_maven_smart_system_iran/) ⭐️ 7.0/10
+## [Substack launches a new Recording Studio tool for pre-recorded shows and new overlay tools](https://alternativeto.net/news/2026/3/substack-launches-a-new-recording-studio-tool-for-pre-recorded-shows-and-new-overlay-tools/) ⭐️ 7.0/10
 
-During Palantir's AIPCON event, the Pentagon's AI chief highlighted the effectiveness of the Maven Smart System in expediting target selection for US military strikes in Iran. This system has significantly reduced the decision-making time required for military operations. The praise for Palantir's technology underscores its critical role in enhancing operational efficiency in military engagements, particularly in high-stakes environments like Iran. This advancement could influence future military strategies and the integration of AI in defense operations. The Maven Smart System consolidates multiple systems into one, streamlining decision-making processes for military strikes. This integration allows for faster responses and potentially more effective targeting in combat scenarios.
+Substack has introduced a new built-in Recording Studio tool, enabling creators to pre-record and publish shows directly on the platform. This update simplifies content creation and distribution for Substack users. The new Recording Studio streamlines the podcasting process by integrating recording, editing, and distribution within Substack. This reduces the need for creators to use multiple tools, enhancing their workflow and platform integration. The Recording Studio supports solo videos and conversations with up to two guests, offering customization tools like publication logos and screen sharing. It is currently available on desktop, with guest access from desktop or mobile apps.
 
-rss · The Register · Mar 13, 01:00
+rss · AlternativeTo · Mar 13, 05:38
 
-**Background**: The Maven Smart System is an AI-powered platform developed by Palantir to support military operations, enabling better data integration and decision-making. It is part of a broader trend of incorporating AI technologies into defense strategies to enhance operational capabilities.
+**Background**: Substack is an online platform that provides publishing, payment, analytics, and design infrastructure to support subscription-based content. It aims to empower independent writers and creators by providing them with the tools to build and monetize their audience. Pre-recorded shows offer flexibility by allowing creators to publish content at their convenience, as opposed to live broadcasts.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.palantir.com/maven-smart-system-innovating-for-the-alliance-5ebc31709eea">Maven Smart System: Innovating for the Alliance | by Palantir ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Operation_Epic_Fury">Operation Epic Fury</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Substack">Substack - Wikipedia</a></li>
+<li><a href="https://substack.com/">Substack</a></li>
+<li><a href="https://hippoadviser.com/live-production-vs-pre-recorded-which-format-works-best/">Live Production vs. Pre-Recorded: Which Format Works Best?</a></li>
+<li><a href="https://www.radioking.com/blog/is-pre-recorded-or-live-radio-content-better/">Pre-recorded radio shows VS live broadcasts - RadioKing Blog How do prerecordings work? : r/kpophelp - Reddit Live TV versus prerecorded: how to take best advantage of each Live vs Pre-Recorded Events: What Really Works (And When to ... Pre Recorded Radio Shows - Facebook 7 Easy Ways to Use Pre-Recorded Streaming</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Military Technology`, `#Palantir`, `#Defense`, `#Operational Efficiency`
+**Discussion**: There are no relevant community discussions available at this time.
+
+**Tags**: `#Substack`, `#Podcasting`, `#Content Creation`, `#Recording Studio`, `#Creator Tools`
 
 ---
 
 <a id="item-32"></a>
-## [Operation Lightning takes down SocksEscort proxy network blamed for tens of millions in fraud](https://go.theregister.com/feed/www.theregister.com/2026/03/12/socksescort_fraud_proxy_taken_down_fbi/) ⭐️ 7.0/10
+## [Anthropic launches a code review tool with multi-agent AI bug detection, but it's pricey](https://alternativeto.net/news/2026/3/anthropic-launches-a-code-review-tool-with-multi-agent-ai-bug-detection-but-it-s-pricey/) ⭐️ 7.0/10
 
-Operation Lightning successfully disrupted the SocksEscort proxy network, which was linked to extensive digital fraud across multiple countries. This operation involved the takedown of 23 servers in seven countries, significantly impacting criminal activities. This disruption is significant as it targets a major infrastructure used for digital fraud, potentially preventing further financial losses for businesses and consumers. The operation highlights the ongoing efforts of international law enforcement to combat cybercrime. SocksEscort was a residential proxy service that exploited hundreds of thousands of routers worldwide, facilitating large-scale fraud costing millions. The operation also resulted in the freezing of $3.5 million in cryptocurrency linked to these activities.
+Anthropic introduces Code Review, an AI-powered code analysis tool employing multiple agents for in-depth bug detection in pull requests, but it comes with a higher price tag.
 
-rss · The Register · Mar 12, 16:23
+rss · AlternativeTo · Mar 12, 17:30
 
-**Background**: Residential proxy services like SocksEscort allow users to route their internet traffic through residential IP addresses, making it harder to trace their online activities. These services are often exploited by criminals for various illicit activities, including digital fraud.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.theregister.com/2026/03/12/socksescort_fraud_proxy_taken_down_fbi/">SocksEscort fraud-enabling proxy service taken down • The ...</a></li>
-<li><a href="https://www.justice.gov/usao-edca/pr/authorities-dismantle-global-malicious-proxy-service-deployed-malware-and-defrauded">Authorities Dismantle Global Malicious Proxy Service that ...</a></li>
-<li><a href="https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html">Authorities Disrupt SocksEscort Proxy Botnet Exploiting ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#fraud`, `#proxy networks`, `#law enforcement`, `#digital crime`
+**Tags**: `#AI`, `#Code Review`, `#Anthropic`, `#Bug Detection`, `#Software Development`
 
 ---
 
 <a id="item-33"></a>
-## [Campaigners claim NHS Palantir system could be accessed by police and immigration](https://go.theregister.com/feed/www.theregister.com/2026/03/12/medact_palantir/) ⭐️ 7.0/10
+## [GPT-5.4 and 5.3 models now available in Make](https://alternativeto.net/news/2026/3/gpt-5-4-and-5-3-models-now-available-in-make/) ⭐️ 7.0/10
 
-Campaigners have raised concerns that the NHS's use of the Palantir data platform could enable police and immigration authorities to access confidential patient information. This warning highlights potential legal and ethical issues surrounding patient data security. This situation is significant as it raises serious questions about patient privacy and the ethical use of healthcare data. If police and immigration can access such sensitive information, it could deter individuals from seeking medical care. Palantir Technologies, the company behind the platform, asserts that any unauthorized access would violate current laws and contractual agreements. The discussion around this issue is part of a larger conversation about data privacy in the UK healthcare system.
+GPT-5.4 and 5.3 models are now integrated into Make.com, enabling users to leverage them in automation workflows.
 
-rss · The Register · Mar 12, 13:14
+rss · AlternativeTo · Mar 12, 16:20
 
-**Background**: Palantir is a data analytics company that provides platforms for integrating and analyzing data from various sources, often used by government agencies. The NHS, or National Health Service, is the publicly funded healthcare system in the UK, which has specific protocols for data sharing to protect patient information.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Palantir">Palantir - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Data_Protection_Act_2018">Data Protection Act 2018 - Wikipedia</a></li>
-<li><a href="https://www.england.nhs.uk/long-read/data-and-clinical-record-sharing/">NHS England » Data and clinical record sharing</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community sentiment appears to be largely concerned about the implications of this data access on patient trust and privacy. Many participants express a desire for stricter regulations to ensure that sensitive health information remains protected.
-
-**Tags**: `#Healthcare`, `#Data Privacy`, `#Ethics`, `#Palantir`, `#UK Immigration`
+**Tags**: `#GPT-5.4`, `#GPT-5.3`, `#Make.com`, `#Automation`, `#AI Integration`
 
 ---
 
 <a id="item-34"></a>
-## [Britain turns up the heat on homegrown ceramics for hypersonic missiles](https://go.theregister.com/feed/www.theregister.com/2026/03/12/uk_cmc_manufacturing/) ⭐️ 7.0/10
+## [WordPress Studio adds Xdebug and debug log tools for local debugging](https://alternativeto.net/news/2026/3/wordpress-studio-adds-xdebug-and-debug-log-tools-for-local-debugging/) ⭐️ 7.0/10
 
-Britain is beginning to develop its own ultrahigh temperature materials, essential for hypersonic vehicles and advanced propulsion systems. This initiative is backed by a £350,000 investment from the Defence Science and Technology Laboratory (DSTL). This development is significant as it could enhance the UK's capabilities in defense technology and materials science, particularly in the context of hypersonic vehicle applications. The investment may lead to increased self-reliance in critical materials for national security. Ultrahigh temperature materials are crucial for withstanding extreme conditions in hypersonic flight, where temperatures can exceed 3000 °C. The initiative aims to reduce reliance on foreign materials and improve the UK's technological edge in this field.
+WordPress Studio now integrates Xdebug and a debug log tool for enhanced local WordPress development. This allows developers to step through PHP code and easily access PHP error logs. These additions streamline the debugging process for WordPress developers, making it easier to identify and resolve issues during local development. This can lead to faster development cycles and more stable WordPress sites. The update includes Xdebug integration for step-through PHP debugging and a debug log toggle for automatic capture and direct access to PHP error logs. It also supports error display in the browser and AI agents to interpret log output.
 
-rss · The Register · Mar 12, 10:59
+rss · AlternativeTo · Mar 12, 16:09
 
-**Background**: Ultrahigh temperature materials (UHTMs) are designed to maintain structural integrity at extreme temperatures, making them vital for aerospace applications. Hypersonic vehicles are defined as those capable of traveling at speeds greater than Mach 5, requiring advanced propulsion systems that can operate under severe thermal conditions.
+**Background**: WordPress Studio is a local development tool designed to simplify WordPress site creation and management. It offers instant WordPress setup, one-click WP Admin access, and a code-agnostic environment. Xdebug is a popular PHP extension that provides debugging and profiling capabilities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Ultra-high_temperature_ceramic">Ultra-high temperature ceramic - Wikipedia</a></li>
-<li><a href="https://www.sciencedirect.com/topics/engineering/hypersonic-propulsion">Hypersonic Propulsion - an overview | ScienceDirect Topics</a></li>
+<li><a href="https://developer.wordpress.com/studio/">WordPress Studio – Fast, Free Local Development</a></li>
+<li><a href="https://apps.microsoft.com/detail/9pntbl35pzvs">WordPress Studio - Free download and install on Windows ...</a></li>
+<li><a href="https://wpschool.org/studio-by-wordpress-com-a-fast-free-way-to-develop-sites-locally-with-wordpress/">Studio by WordPress.com: A Fast & Free Way to Develop Sites ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Xdebug">Xdebug</a></li>
+<li><a href="https://grokipedia.com/page/xdebug">Xdebug</a></li>
+<li><a href="https://xdebug.org/">Xdebug - Debugger and Profiler Tool for PHP</a></li>
+<li><a href="https://stackify.com/php-debugging-guide/">A Detailed Guide to PHP Debugging - Stackify</a></li>
+<li><a href="https://www.geeksforgeeks.org/php/how-to-debug-php-scripts/">How to debug PHP scripts - GeeksforGeeks</a></li>
+<li><a href="https://dev.to/rociogarciavf/how-to-debug-php-code-in-2025-2pgk">How to Debug PHP Code in 2025? - DEV Community</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#hypersonic`, `#materials science`, `#defense technology`, `#UK`, `#propulsion systems`
+**Discussion**: There are currently no community comments available to assess the discussion quality regarding this update.
+
+**Tags**: `#WordPress`, `#Debugging`, `#PHP`, `#Development Tools`, `#Xdebug`
 
 ---
 
 <a id="item-35"></a>
-## [Claude just got one step closer to image generation with this new feature](https://www.neowin.net/news/claude-just-got-one-step-closer-to-image-generation-with-this-new-feature/) ⭐️ 7.0/10
+## [OpenProject 17.2 adds MCP server, reusable meeting templates, and improved PDF exports](https://alternativeto.net/news/2026/3/openproject-17-2-adds-mcp-server-reusable-meeting-templates-and-improved-pdf-exports/) ⭐️ 7.0/10
 
-Anthropic has introduced a new feature in Claude that enables the generation of detailed visuals and diagrams. This marks a significant step forward in the capabilities of the AI model. This advancement is significant as it enhances the multimodal capabilities of AI, allowing for richer interactions and outputs. It could impact various industries that rely on visual data representation. The new feature allows Claude to autonomously create visuals, which could be particularly useful in fields like education, design, and data analysis. However, the specifics of the underlying algorithms have not been disclosed.
+OpenProject 17.2 introduces MCP server for AI integration, reusable meeting templates, improved PDF exports, and enhancements to the project overview page.
 
-rss · Neowin · Mar 12, 18:36
+rss · AlternativeTo · Mar 12, 13:00
 
-**Background**: Multimodal AI refers to models that can process and integrate multiple types of data, such as text, images, and audio. This capability allows for improved understanding and generation of complex data outputs, making models like Claude more versatile in their applications.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Multimodal_AI">Multimodal AI</a></li>
-<li><a href="https://www.ibm.com/think/topics/multimodal-ai">What is Multimodal AI? | IBM</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#Image Generation`, `#Anthropic`, `#Claude`, `#Multimodal AI`
+**Tags**: `#OpenProject`, `#Project Management`, `#MCP Server`, `#AI Integration`, `#Meeting Templates`
 
 ---
 
 <a id="item-36"></a>
-## [Google Maps gets its biggest navigation upgrade in a decade](https://www.neowin.net/news/google-maps-gets-its-biggest-navigation-upgrade-in-a-decade/) ⭐️ 7.0/10
+## [Starbucks discloses data breach affecting hundreds of employees](https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/) ⭐️ 7.0/10
 
-Google Maps has begun rolling out its largest navigation upgrade in ten years, introducing an AI chatbot feature called 'Ask Maps'. This new functionality allows users to ask complex questions related to navigation and locations. This upgrade is significant as it enhances user experience by integrating AI-driven functionalities, which could streamline navigation and planning for millions of users. The introduction of the chatbot may also set a new standard for interactive navigation tools in the industry. The 'Ask Maps' feature allows users to interact with the AI for personalized assistance, which could improve efficiency in travel planning. However, the effectiveness of the chatbot will depend on the accuracy and relevance of its AI responses.
+Starbucks disclosed a data breach affecting hundreds of employees due to unauthorized access to their Starbucks Partner Central accounts.
 
-rss · Neowin · Mar 12, 14:46
+rss · BleepingComputer · Mar 13, 08:16
 
-**Background**: Google Maps is a widely used navigation tool that provides directions, traffic updates, and location information. Over the years, it has incorporated various features to improve user experience, and this latest upgrade marks a significant leap in integrating AI technologies into everyday navigation.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.neowin.net/news/google-maps-gets-its-biggest-navigation-upgrade-in-a-decade/">Google Maps gets its biggest navigation upgrade in a decade</a></li>
-<li><a href="https://www.cnbc.com/2026/03/12/google-brings-more-gemini-ai-to-navigation-with-ask-maps-feature.html">Google brings more Gemini AI to navigation with 'Ask Maps' feature</a></li>
-<li><a href="https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/">Google Maps Gets Chatty With a New Gemini-Powered Interface - WIRED</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community is generally excited about the new features, particularly the AI chatbot, which many believe will enhance the usability of Google Maps. Some users, however, express concerns about the accuracy of AI responses and the potential for over-reliance on technology.
-
-**Tags**: `#Google Maps`, `#Navigation`, `#AI`, `#Technology Upgrade`, `#User Experience`
+**Tags**: `#data breach`, `#Starbucks`, `#employee data`, `#cybersecurity`, `#privacy`
 
 ---
 
 <a id="item-37"></a>
-## [Google just gave Gemini the power to control apps on the Galaxy S26 — and it's pretty wild](https://www.androidcentral.com/apps-software/gemini-screen-automation-rolling-out-for-galaxy-s26) ⭐️ 7.0/10
+## [Canadian retail giant Loblaw notifies customers of data breach](https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/) ⭐️ 7.0/10
 
-Google Gemini has gained the ability to control apps on the Galaxy S26, allowing users to automate multi-step tasks. This feature enhances the functionality of the device significantly. This advancement in app automation could significantly improve user experience by streamlining complex tasks. It also positions Google Gemini as a competitive player in the mobile automation space. Gemini automates tasks by running necessary apps in a secure, virtual environment on the phone, but it can only access limited apps. This means that while it enhances functionality, there are still restrictions on its capabilities.
+Loblaw, a Canadian retail giant, has notified customers of a data breach and logged them out of their accounts as a precaution.
 
-rss · Android Central · Mar 12, 21:19
+rss · BleepingComputer · Mar 12, 21:32
 
-**Background**: Google Gemini is an AI-driven tool designed to automate various tasks on mobile devices. Multi-step task automation allows users to perform complex actions with minimal input, making daily activities more efficient.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://9to5google.com/2026/03/12/gemini-android-app-automation-galaxy-s26-rollout/">Gemini rolls out Android app automation on Galaxy S26</a></li>
-<li><a href="https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/">Let Gemini handle your multi-step daily tasks on Android. - Google</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Google`, `#Gemini`, `#App Automation`, `#Galaxy S26`, `#Technology`
+**Tags**: `#data breach`, `#Loblaw`, `#retail`, `#cybersecurity`, `#Canada`
 
 ---
 
 <a id="item-38"></a>
-## [Before quantum computing arrives, this startup wants enterprises already running on it](https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/) ⭐️ 7.0/10
+## [England Hockey investigating ransomware data breach](https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/) ⭐️ 7.0/10
 
-Peter Sarlin has launched a new startup called QuTwo, which aims to create the infrastructure necessary for enterprises to utilize quantum computing as it becomes mainstream. This initiative follows Sarlin's previous success in selling his AI startup to AMD for $665 million. This development is significant as it positions QuTwo to be at the forefront of quantum technology adoption in enterprises, potentially transforming various industries. By preparing infrastructure now, companies can gain a competitive edge when quantum computing becomes widely available. QuTwo's focus is on building the necessary infrastructure for quantum computing, which is expected to revolutionize computational capabilities. The startup's approach may include integrating quantum solutions into existing enterprise systems.
+England Hockey is investigating a potential data breach after the AiLock ransomware gang listed them as a victim. The organization is working to determine the scope and impact of the incident. This incident highlights the increasing threat of ransomware attacks against organizations of all sizes, including sports organizations. Such attacks can compromise sensitive personal data and disrupt operations. England Hockey was listed as a victim by the AiLock ransomware gang on their data leak site. The investigation is ongoing to assess the extent of the data breach.
 
-rss · TechCrunch · Mar 13, 05:00
+rss · BleepingComputer · Mar 12, 20:37
 
-**Background**: Quantum computing represents a significant leap in computational power, utilizing principles of quantum mechanics to perform calculations at unprecedented speeds. As industries begin to explore quantum solutions, the need for robust infrastructure becomes critical to support these advanced technologies.
+**Background**: Ransomware is a type of malware that encrypts a victim's data and demands a ransom payment for its decryption. The AiLock ransomware group is a Ransomware-as-a-Service (RaaS) operation that employs double-extortion tactics, encrypting files and threatening to leak stolen data.
 
-**Tags**: `#quantum computing`, `#startup`, `#enterprise infrastructure`, `#AI`, `#technology trends`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware - Wikipedia</a></li>
+<li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/ransomware">Ransomware — FBI</a></li>
+<li><a href="https://www.ibm.com/think/topics/ransomware">What is ransomware? - IBM</a></li>
+<li><a href="https://www.fortra.com/blog/ailock-ransomware">AiLock ransomware: What you need to know | Fortra</a></li>
+<li><a href="https://www.netcrook.com/ailock-dallas-regional-chamber-ransomware-attack-2026/">☠️ Ailock Ransomware Strikes Dallas Regional Chamber ...</a></li>
+<li><a href="https://www.ransomlook.io/group/ailock">ailock details - ransomlook.io</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Currently, there are no specific community discussions available regarding this particular incident. However, general discussions about ransomware and data breaches are common in cybersecurity forums.
+
+**Tags**: `#ransomware`, `#data breach`, `#England Hockey`, `#AiLock`, `#cybersecurity`
 
 ---
 
 <a id="item-39"></a>
-## [Atlassian follows Block’s footsteps and cuts staff in the name of AI](https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/) ⭐️ 7.0/10
+## [Going the Extra Mile: Travel Rewards Turn into Underground Currency.](https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/) ⭐️ 7.0/10
 
-Atlassian has laid off approximately 1,600 employees, which is about 10% of its workforce, to redirect resources towards artificial intelligence initiatives. This move follows similar workforce reductions seen in other tech companies. This decision highlights a significant trend in the tech industry where companies are prioritizing AI investments over traditional workforce structures. As AI continues to evolve, this could lead to broader changes in employment within the sector. The layoffs are part of Atlassian's strategy to enhance its AI capabilities, which may include developing new AI-driven tools and improving existing software. This shift reflects a growing reliance on automation and AI in software development.
+The article discusses how stolen airline miles and hotel points are being converted into discounted travel and treated as tradable currency in underground markets.
 
-rss · TechCrunch · Mar 12, 17:20
+rss · BleepingComputer · Mar 12, 14:05
 
-**Background**: Atlassian is a collaboration software company known for products like Jira and Confluence. The tech industry has been experiencing a wave of layoffs as companies adapt to changing market demands and invest heavily in AI technologies to improve efficiency and productivity.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.computerworld.com/article/4144218/atlassian-cuts-1600-jobs-to-fund-ai-and-enterprise-expansion.html">Atlassian cuts 1600 jobs to fund AI and enterprise expansion</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Atlassian`, `#AI`, `#workforce reduction`, `#industry trends`, `#technology`
+**Tags**: `#cybersecurity`, `#financial crime`, `#travel rewards`, `#loyalty programs`, `#underground markets`
 
 ---
 
 <a id="item-40"></a>
-## [Humanoid robotics maker Sunday reaches $1.15B valuation to build household robots](https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/) ⭐️ 7.0/10
+## [Copilot Notebooks get big redesign in latest update](https://www.neowin.net/news/copilot-notebooks-get-big-redesign-in-latest-update/) ⭐️ 7.0/10
 
-Sunday, a humanoid robotics company, has reached a valuation of $1.15 billion as it works on a household robot named Memo designed to assist with daily tasks. The company has already garnered 1,000 people on its waitlist since emerging from stealth last year. This significant valuation reflects growing investment and interest in the robotics sector, particularly in household automation. The development of robots like Memo could have a profound impact on how daily chores are managed in homes. The robot Memo is intended to assist with tasks such as laundry and clearing the table, showcasing the practical application of humanoid robotics in everyday life. However, details on the specific technologies or algorithms used in Memo's development have not been disclosed.
+Microsoft's Copilot Notebooks have received a significant redesign, featuring a new layout and AI tools. This update aims to improve project organization for users. The redesign could significantly impact how users organize and manage their projects within Copilot Notebooks. Improved organization can lead to increased productivity and efficiency. The update includes a new layout and integrates AI tools to enhance project organization. This is a major update to Microsoft's Copilot Notebooks.
 
-rss · TechCrunch · Mar 12, 17:04
+rss · Neowin · Mar 13, 08:16
 
-**Background**: Humanoid robots are designed to mimic human appearance and behavior, often used in various applications including household tasks and service roles. The increasing interest in household robots reflects a broader trend towards automation in everyday life, aiming to enhance convenience and efficiency.
+**Background**: Microsoft Copilot is a generative AI chatbot based on OpenAI's GPT models, designed to be a companion for users. It has been integrated into various Microsoft products, including Windows 11. Copilot aims to assist users with information, entertainment, and inspiration.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://baincapitalventures.com/insight/robots-finally-at-home/">Robots, Finally at Home | Bain Capital Ventures</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_Copilot">Microsoft Copilot</a></li>
+<li><a href="https://copilot.microsoft.com/">Microsoft Copilot: Your AI companion</a></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoft_365blog/introducing-copilot-notebooks-a-whole-new-way-to-work-with-ai-in-onenote/4428626">Introducing Copilot Notebooks: A whole new way to work with ...</a></li>
+<li><a href="https://notebooklm.google/">Google NotebookLM | AI Research Tool & Thinking Partner</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#humanoid robotics`, `#household robots`, `#investment`, `#technology`, `#automation`
+**Discussion**: No user comments are available at this time.
+
+**Tags**: `#Microsoft`, `#Copilot`, `#AI`, `#Notebooks`, `#Redesign`
 
 ---
 
 <a id="item-41"></a>
-## [Bumble introduces an AI dating assistant, ‘Bee’](https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/) ⭐️ 7.0/10
+## [Looking to expand your smart home? The Amazon Echo Show hit its lowest price in the UK](https://www.neowin.net/deals/looking-to-expand-your-smart-home-the-amazon-echo-show-hit-its-lowest-price-in-the-uk/) ⭐️ 7.0/10
 
-Bumble has launched a new AI dating assistant named Bee, which aims to improve user matching based on compatibility and personal goals. This feature is designed to enhance the dating experience beyond the traditional swipe mechanism. This development is significant as it represents a shift in how dating apps can enhance user experiences through AI technology. The introduction of Bee could influence user engagement and satisfaction within the competitive dating app market. Bee utilizes AI matching algorithms to assess user compatibility and personal goals, potentially leading to more meaningful connections. However, the effectiveness of such algorithms can vary based on the data and criteria used.
+The Amazon Echo Show is currently at its lowest price in the UK as part of Amazon's Spring Sale.
 
-rss · TechCrunch · Mar 12, 16:52
+rss · Neowin · Mar 13, 08:00
 
-**Background**: Dating apps have increasingly relied on algorithms to connect users based on shared interests and compatibility. Compatibility Matching Algorithms (CMAs) analyze user data to facilitate these connections, aiming to enhance the likelihood of successful matches.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.iteratorshq.com/blog/how-matching-algorithms-can-help-your-user-get-a-perfect-pairing/">How Matching Algorithms Can Help Your User Get a Perfect Pairing</a></li>
-<li><a href="https://www.mentoringcomplete.com/have-you-heard-about-ai-based-matching-algorithms/">Have you heard about AI-based matching algorithms?</a></li>
-<li><a href="https://www.datingadvice.com/advice/how-does-compatibility-matching-work">What Is Compatibility Matching in Online Dating? An Expert Guide</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#Dating Apps`, `#User Experience`, `#Technology`, `#Innovation`
+**Tags**: `#Amazon Echo Show`, `#Smart Home`, `#Deals`, `#UK`, `#Amazon`
 
 ---
 
 <a id="item-42"></a>
-## [A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent](https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/) ⭐️ 7.0/10
+## [Microsoft Teams is getting more new AI features](https://www.neowin.net/news/microsoft-teams-is-getting-more-new-ai-features/) ⭐️ 7.0/10
 
-Journalist Julia Angwin has filed a class action lawsuit against Grammarly, claiming the company violated her privacy and publicity rights by using her work without consent. This lawsuit raises significant ethical concerns regarding AI's use of authors' content. This lawsuit is significant as it addresses the legal implications of AI technologies in the publishing industry, potentially impacting how companies use authors' works. It highlights the ongoing debate about consent and the rights of creators in the age of AI. The lawsuit emphasizes that authors should have control over how their works are used, especially when it comes to AI applications that can alter or repurpose their content. It raises questions about the ethical responsibilities of companies like Grammarly in handling authors' intellectual property.
+Microsoft Teams is adding automatic spoken language detection and meeting video recaps powered by AI.
 
-rss · TechCrunch · Mar 12, 16:42
+rss · Neowin · Mar 13, 03:36
 
-**Background**: Privacy rights in the United States protect individuals from unauthorized use of their personal information, while publicity rights prevent others from exploiting an individual's identity for commercial gain without consent. As AI technologies evolve, the intersection of these rights with generative AI practices becomes increasingly complex.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns">Generative AI Ethics : 11 Biggest Concerns and... | Informa TechTarget</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Privacy_rights_in_the_United_States">Privacy rights in the United States</a></li>
-<li><a href="https://authorsguild.org/resource/writing-about-real-people-libel-defamation-rights-of-privacy-and-publicity/">Writing About Real People: What Authors Need to Know About Libel, Defamation, and Rights of Privacy and Publicity - The Authors Guild</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community sentiment appears to be divided, with some supporting the lawsuit as a necessary step for protecting authors' rights, while others argue that it could hinder innovation in AI applications. Concerns about the implications for AI-generated content are prevalent in discussions.
-
-**Tags**: `#AI Ethics`, `#Privacy Rights`, `#Legal Issues`, `#Grammarly`, `#Authors' Rights`
+**Tags**: `#Microsoft Teams`, `#AI`, `#Artificial Intelligence`, `#Collaboration`, `#Communication`
 
 ---
 
 <a id="item-43"></a>
-## [Tesla becomes a utility in the UK, setting up showdown with Octopus Energy](https://techcrunch.com/2026/03/12/tesla-becomes-a-utility-in-the-uk-setting-up-showdown-with-octopus-energy/) ⭐️ 7.0/10
+## [Microsoft is bringing more AI features to SharePoint](https://www.neowin.net/news/microsoft-is-bringing-more-ai-features-to-sharepoint/) ⭐️ 7.0/10
 
-Tesla has launched its Energy Ventures division in the UK, which has been approved by Ofgem to sell electricity directly to customers. This marks a significant entry into the UK energy market for Tesla. This development could disrupt the current energy market landscape, potentially affecting competition and consumer choices in the UK. It positions Tesla as a direct competitor to established energy providers like Octopus Energy. Tesla's Energy Ventures division has been approved after a process that began last July. This approval allows Tesla to leverage its existing technology and infrastructure in energy solutions to compete in the electricity supply market.
+Microsoft is adding new AI-powered features to SharePoint, allowing users to edit documents using Copilot.
 
-rss · TechCrunch · Mar 12, 16:36
+rss · Neowin · Mar 13, 03:22
 
-**Background**: Ofgem, the UK's energy regulator, oversees the electricity supply market and ensures fair competition. Tesla has been involved in energy storage and solar solutions, and this move into direct electricity sales represents a significant expansion of its business model.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.reuters.com/business/energy/teslas-energy-business-wins-approval-supply-electricity-uk-2026-03-12/">Tesla set to start supplying UK homes with electricity</a></li>
-<li><a href="https://electrek.co/2026/03/12/tesla-energy-ventures-wins-ofgem-licence-supply-electricity-uk/">Tesla Energy wins licence to supply electricity to UK homes</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Tesla`, `#Energy`, `#Utilities`, `#UK`, `#Octopus Energy`
+**Tags**: `#Microsoft`, `#SharePoint`, `#AI`, `#Copilot`, `#Productivity`
 
 ---
 
 <a id="item-44"></a>
-## [Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder](https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/) ⭐️ 7.0/10
+## [Beaver-themed city-builder Timberborn exits early access with a massive update](https://www.neowin.net/news/beaver-themed-city-builder-timberborn-exits-early-access-with-a-massive-update/) ⭐️ 7.0/10
 
-Gumloop has secured $50 million in funding from Benchmark to develop an intuitive AI agent builder. This tool aims to empower every employee within organizations to harness AI capabilities effectively. This investment is significant as it represents a shift towards democratizing AI tools in the workplace, potentially enhancing productivity and innovation across various industries. Empowering all employees with AI capabilities could reshape workforce dynamics and operational efficiency. The AI agent builder is designed to be intuitive, allowing employees with varying technical backgrounds to create and deploy AI agents. This approach aligns with broader trends in workforce management that emphasize user-friendly technology.
+Timberborn, a beaver-themed survival city builder, has officially launched after nearly five years in early access.
 
-rss · TechCrunch · Mar 12, 15:30
+rss · Neowin · Mar 12, 23:58
 
-**Background**: As companies increasingly adopt AI, tools that enable employees to leverage AI effectively are becoming essential. The concept of AI agent builders is gaining traction, allowing users to automate tasks and enhance productivity without requiring extensive technical expertise.
+**Tags**: `#Timberborn`, `#City Builder`, `#Survival`, `#Beaver`, `#Game Release`
 
-**Tags**: `#AI`, `#Investment`, `#Workforce`, `#Technology`, `#Startup`
+---
+
+<a id="item-45"></a>
+## [Google is finally bringing Chrome to ARM64 Linux devices](https://www.neowin.net/news/google-is-finally-bringing-chrome-to-arm64-linux-devices/) ⭐️ 7.0/10
+
+Google is now officially providing Chrome for ARM64 Linux devices. This native support promises improved browser compatibility and performance for users on these platforms. This is a significant step for ARM64 Linux users, as it eliminates the need for workarounds or unofficial builds. Native Chrome support should lead to a better browsing experience overall. The official Chrome version for ARM64 Linux provides native support, enhancing performance and compatibility. Users can now directly install and run Chrome without emulation or compatibility layers.
+
+rss · Neowin · Mar 12, 23:42
+
+**Background**: ARM64 processors are widely used in various devices due to their efficiency. Linux is a popular open-source operating system used on a wide range of devices, including servers and embedded systems. Google Chrome is a widely used web browser developed by Google.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ARM_architecture_family">ARM architecture family</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Linux_operating_system">Linux operating system</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Google_Chrome_browser">Google Chrome browser</a></li>
+<li><a href="https://www.google.com/chrome/">Google Chrome - The Fast & Secure Web Browser Built to be Yours</a></li>
+<li><a href="https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform=Desktop">Download and install Google Chrome Google Chrome Browser Download Free - 145.0.7632.160 | TechSpot Browser features and tools – Google Chrome Google Chrome - App Store Google Chrome - Apps on Google Play Official Google Chrome news and updates | Google Blog Google Chrome Browser Download Free - 143.0.7499.193 | TechSpot Google Chrome Browser Download Free - 143.0.7499.193 | TechSpot Google Chrome - Download the Fast, Secure Browser from Google Google Chrome - Download the Fast, Secure Browser from Google</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Users are generally excited about the official support, with some hoping for further optimizations. Some users are curious about the performance compared to Chromium-based alternatives.
+
+**Tags**: `#Chrome`, `#ARM64`, `#Linux`, `#Google`, `#Browser`
+
+---
+
+<a id="item-46"></a>
+## [Microsoft introduces Copilot Health to analyze your health data from wearable devices](https://www.neowin.net/news/microsoft-introduces-copilot-health-to-analyze-your-health-data-from-wearable-devices/) ⭐️ 7.0/10
+
+Microsoft has launched Copilot Health, a new tool designed to analyze health data collected from wearable devices. This aims to provide users with a better understanding of their health metrics. Copilot Health could significantly impact how individuals interpret and manage their personal health data, potentially leading to more informed healthcare decisions. The tool may also raise important questions about health data privacy and security. Copilot Health analyzes data from wearable devices to provide insights into users' health. The tool is a new addition to the Microsoft Copilot suite, expanding its functionality into the health and wellness domain.
+
+rss · Neowin · Mar 12, 21:34
+
+**Background**: Microsoft Copilot is a generative AI chatbot based on OpenAI's GPT models, designed to assist users with various tasks. Wearable devices are increasingly used to monitor health metrics, generating large amounts of data that can be difficult for individuals to interpret. Health data privacy is governed by regulations like HIPAA, GDPR, and CCPA, which aim to protect sensitive health information.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_Copilot">Microsoft Copilot</a></li>
+<li><a href="https://copilot.microsoft.com/">Microsoft Copilot: Your AI companion</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8402237/">Review of Wearable Devices and Data Collection Considerations ...</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S266699862400543X">Real-time personal healthcare data analysis using edge ...</a></li>
+<li><a href="https://www.nature.com/articles/s41746-024-01151-3">From wearable sensor data to digital biomarker development ...</a></li>
+<li><a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">Summary of the HIPAA Privacy Rule - HHS.gov Data privacy in healthcare: Global challenges and solutions Digital Diagnosis: Health Data Privacy in the U.S. - Law and ... The Importance of Data Privacy in Healthcare: An In-depth Guide AMA health data privacy framework - American Medical Association Digital Diagnosis: Health Data Privacy in the U.S. - Law and The Importance of Data Privacy in Healthcare: An In-depth Guide AMA health data privacy framework - American Medical Association Data privacy in healthcare: Global challenges and solutions HIPAA Privacy Rule - Updated for 2026 USA: Health Privacy Regulation in a Digital World | Insights ...</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12138216/">Data privacy in healthcare: Global challenges and solutions</a></li>
+<li><a href="https://law.stanford.edu/2025/02/26/digital-diagnosis-health-data-privacy-in-the-u-s/">Digital Diagnosis: Health Data Privacy in the U.S. - Law and ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The introduction of Copilot Health sparks discussion about the role of AI in personal health management. Some users are excited about the potential for improved health insights, while others express concerns about data security and privacy implications. Further discussion is needed regarding the ethical considerations of AI-driven health analysis.
+
+**Tags**: `#Microsoft`, `#Copilot`, `#Health`, `#Wearable Devices`, `#Data Analysis`
+
+---
+
+<a id="item-47"></a>
+## [The best AMD Ryzen processor for gaming is now available at the lowest price](https://www.neowin.net/deals/the-best-amd-ryzen-processor-for-gaming-is-now-available-at-the-lowest-price/) ⭐️ 7.0/10
+
+The best AMD Ryzen processor for gaming is currently available at its lowest price.
+
+rss · Neowin · Mar 12, 20:36
+
+**Tags**: `#AMD Ryzen`, `#Processor`, `#Gaming`, `#Deals`, `#PC Hardware`
+
+---
+
+<a id="item-48"></a>
+## [Senior Microsoft executive announces retirement as org chart shakes yet again](https://www.neowin.net/news/senior-microsoft-executive-announces-retirement-as-org-chart-shakes-yet-again/) ⭐️ 7.0/10
+
+Rajesh Jha, a senior executive at Microsoft, is retiring after 35 years with the company. This has prompted a leadership reshuffle orchestrated by CEO Satya Nadella. The retirement of a long-standing executive and subsequent organizational changes can significantly impact Microsoft's strategic direction and internal operations. It signals a potential shift in priorities and leadership within the company. Rajesh Jha is retiring on July 1st after more than 35 years at Microsoft. CEO Satya Nadella is implementing further organizational changes as a result of this departure.
+
+rss · Neowin · Mar 12, 19:32
+
+**Background**: Satya Nadella is known for his transformational leadership style, focusing on empathy, growth mindset, and strategic innovation. His leadership has been credited with Microsoft's significant growth and success in recent years. Microsoft offers a comprehensive compensation and benefits package to its executives, including RSUs and deferred compensation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://press.farm/satya-nadella-leadership-style-and-philosophy/">Satya Nadella's Leadership Style: Philosophy of Microsoft's CEO</a></li>
+<li><a href="https://quarterdeck.co.uk/articles/what-leadership-style-is-satya-nadella/">What Leadership Style is Satya Nadella: Transformational CEO</a></li>
+<li><a href="https://www.iosrjournals.org/iosr-jbm/papers/Vol26-issue12/Ser-2/I2612027479.pdf">Case Study: Satya Nadella's Leadership at Microsoft</a></li>
+<li><a href="https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/">Microsoft announces Experiences + Devices leadership changes</a></li>
+<li><a href="https://evergreengavekal.com/blog/how-to-get-more-out-of-your-microsoft-executive-compensation/">How to Get More Out of Your Microsoft Executive Compensation</a></li>
+<li><a href="https://www.truewealthfp.com/insights/microsoft-compensation-and-benefits-guide">Microsoft Compensation and Benefits Guide — TrueWealth ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: No significant community discussion was found in the provided content.
+
+**Tags**: `#Microsoft`, `#Rajesh Jha`, `#Satya Nadella`, `#Retirement`, `#Organizational Change`
+
+---
+
+<a id="item-49"></a>
+## [You can play Battlefield 6 for free next week just as Nightfall phase begins](https://www.neowin.net/news/you-can-play-battlefield-6-for-free-next-week-just-as-nightfall-phase-begins/) ⭐️ 7.0/10
+
+Battlefield 6 will be free to play next week on PC, Xbox, and PlayStation, coinciding with the start of Season 2's Nightfall phase.
+
+rss · Neowin · Mar 12, 19:16
+
+**Tags**: `#Battlefield 6`, `#Free Game`, `#Gaming`, `#Season 2`, `#Nightfall`
+
+---
+
+<a id="item-50"></a>
+## [Save 56% on Microsoft Office 2024 + a Surface FE (2022) Laptop (Open Box)](https://www.neowin.net/deals/save-56-on-microsoft-office-2024--a-surface-fe-2022-laptop-open-box/) ⭐️ 7.0/10
+
+This deal offers a significant discount on Microsoft Office 2024 when bundled with an open-box Surface FE (2022) laptop. The combination provides both productivity software and hardware at a reduced price. This deal is important for individuals or businesses seeking to acquire both Microsoft Office 2024 and a Surface Laptop at a discounted rate. It provides a cost-effective solution for productivity and computing needs. The offer includes a 56% discount on the bundle, which consists of Microsoft Office 2024 and a Surface FE (2022) laptop that is classified as 'open box'. 'Open box' typically means the product has been opened but is in excellent condition, potentially a customer return or display model.
+
+rss · Neowin · Mar 12, 19:00
+
+**Background**: Microsoft Office 2024 is the latest non-subscription version of Microsoft's office suite, offering updated versions of Word, Excel, PowerPoint, and other applications. 'Open box' items are products that have been previously opened, often customer returns or display models, and are sold at a discounted price.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2024/09/30/office-2024-for-consumers-available-october-1/">Office 2024 for consumers available October 1 | Microsoft 365 ...</a></li>
+<li><a href="https://www.computerworld.com/article/3555023/heres-whats-new-in-office-2024.html">Here’s what’s new in Office 2024 - Computerworld</a></li>
+<li><a href="https://www.thewindowsclub.com/microsoft-office-2024-download-price-features-faq">Microsoft Office 2024 Download, Price, Features, FAQ</a></li>
+<li><a href="https://www.consumeraffairs.com/news/open-box-vs-refurb-vs-renewed-the-real-differences-when-buying-electronics-102425.html">Open-Box vs. Refurb vs. 'Renewed': the real differences when ...</a></li>
+<li><a href="https://www.wikihow.com/What-Does-Open-Box-Mean">What Does Open Box Mean? Your Guide to Buying Opened Items</a></li>
+<li><a href="https://www.dealnews.com/features/What-Is-Open-Box-and-Should-You-Buy-It/2206895.html">What Is 'Open-Box' and Should You Buy It? - dealnews What Does Open Box Mean & Should You Buy It? Unboxing the Truth: Is Open Box the Same as Brand New? What is an Open Box Electronic? | Back Market What does Open Box mean & Should You Buy It on Amazon, eBay?</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There is no community discussion available in the provided context.
+
+**Tags**: `#Microsoft Office`, `#Surface Laptop`, `#Deals`, `#Productivity`, `#Open Box`
+
+---
+
+<a id="item-51"></a>
+## [Claude just got one step closer to image generation with this new feature](https://www.neowin.net/news/claude-just-got-one-step-closer-to-image-generation-with-this-new-feature/) ⭐️ 7.0/10
+
+Anthropic's Claude has gained a new feature enabling it to generate detailed visuals and diagrams, advancing its capabilities towards image generation.
+
+rss · Neowin · Mar 12, 18:36
+
+**Tags**: `#Claude`, `#Anthropic`, `#Image Generation`, `#AI`, `#Visuals`
+
+---
+
+<a id="item-52"></a>
+## [Windows 11 gets extreme display refresh rate support and new features in KB5079387](https://www.neowin.net/news/windows-11-gets-extreme-display-refresh-rate-support-and-new-features-in-kb5079387/) ⭐️ 7.0/10
+
+Windows 11's KB5079387 update brings support for extremely high display refresh rates and File Explorer improvements.
+
+rss · Neowin · Mar 12, 17:34
+
+**Tags**: `#Windows 11`, `#Update`, `#Refresh Rate`, `#File Explorer`, `#KB5079387`
+
+---
+
+<a id="item-53"></a>
+## [Diablo IV, Killing Floor 3, and more join Xbox Free Play Days for the weekend](https://www.neowin.net/news/diablo-iv-killing-floor-3-and-more-join-xbox-free-play-days-for-the-weekend/) ⭐️ 7.0/10
+
+Diablo IV, Killing Floor 3, and other games are available for free play on Xbox this weekend.
+
+rss · Neowin · Mar 12, 16:06
+
+**Tags**: `#Xbox`, `#Free Play Days`, `#Diablo IV`, `#Killing Floor 3`, `#Gaming`
+
+---
+
+<a id="item-54"></a>
+## [Cozy Grove and Isonzo are free to claim on the Epic Games Store](https://www.neowin.net/news/cozy-grove-and-isonzo-are-free-to-claim-on-the-epic-games-store/) ⭐️ 7.0/10
+
+Cozy Grove, a cozy camping life-sim, and Isonzo, a WWI tactical FPS, are currently free to claim on the Epic Games Store. This double giveaway provides PC gamers with access to two distinct gaming experiences. This is a great opportunity for gamers to expand their libraries with no cost, offering a chance to try out different genres. Free game offerings can increase user engagement with the Epic Games Store. The Epic Games Store is giving away Cozy Grove and Isonzo for a limited time. Cozy Grove is a life-sim game about camping on a haunted island, while Isonzo is a World War I first-person shooter.
+
+rss · Neowin · Mar 12, 15:00
+
+**Background**: The Epic Games Store regularly offers free games to its users as a way to attract and retain customers. This strategy helps to compete with other digital distribution platforms like Steam. Epic Games takes a smaller revenue cut from developers, which incentivizes them to publish on the platform.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Epic_Games_Store">Epic Games Store</a></li>
+<li><a href="https://store.epicgames.com/en-US/">Epic Games Store | Download & Play PC Games, Mods, DLC & More ...</a></li>
+<li><a href="https://store.steampowered.com/app/1458100/Cozy_Grove/">Cozy Grove on Steam Free on Epic Games Store now: A favorite Animal Crossing-like ... Cozy Grove: Camp Spirit - Gameplay Updates and Behind the ... Top Stories Cozy Grove [Videos] - IGN Gameplay – Spry Fox Support Cozy Grove on Steam Cozy Grove on Steam Cozy Grove on Steam COZY GROVE gameplay: Indie Animal Crossing with Quests Galore ...</a></li>
+<li><a href="https://www.netflix.com/tudum/videos/cozy-grove-camp-spirit-behind-the-scenes-development-updates-features">Cozy Grove: Camp Spirit - Gameplay Updates and Behind the ...</a></li>
+<li><a href="https://www.youtube.com/watch?v=FJ01qgy939E">Cozy Grove Nintendo Switch Gameplay - YouTube Cozy Grove on Steam Free on Epic Games Store now: A favorite Animal Crossing-like ... Cozy Grove: Camp Spirit - Gameplay Updates and Behind the ... Top Stories Cozy Grove [Videos] - IGN Gameplay – Spry Fox Support Cozy Grove on Steam Cozy Grove on Steam Cozy Grove on Steam COZY GROVE gameplay: Indie Animal Crossing with Quests Galore ...</a></li>
+<li><a href="https://grokipedia.com/page/Epic_Games_Store">Epic Games Store</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are no user comments available to assess the community discussion surrounding this news. However, free game announcements typically generate positive buzz among gamers.
+
+**Tags**: `#Epic Games Store`, `#Free Games`, `#Cozy Grove`, `#Isonzo`, `#PC Games`
+
+---
+
+<a id="item-55"></a>
+## [NVIDIA GeForce NOW is getting upgrades for VR gaming, GOG store, and more](https://www.neowin.net/news/nvidia-geforce-now-is-getting-upgrades-for-vr-gaming-gog-store-and-more/) ⭐️ 7.0/10
+
+NVIDIA GeForce NOW receives updates including VR gaming support and GOG store integration.
+
+rss · Neowin · Mar 12, 14:48
+
+**Tags**: `#NVIDIA`, `#GeForce NOW`, `#VR Gaming`, `#Cloud Gaming`, `#GOG`
+
+---
+
+<a id="item-56"></a>
+## [Google Maps gets its biggest navigation upgrade in a decade](https://www.neowin.net/news/google-maps-gets-its-biggest-navigation-upgrade-in-a-decade/) ⭐️ 7.0/10
+
+Google Maps is rolling out its biggest navigation upgrade in a decade, including a new AI chatbot called 'Ask Maps'. This feature allows users to interact with Maps in a conversational way, similar to the Gemini chatbot. This update significantly enhances the user experience by providing more intuitive and interactive navigation. The AI chatbot can answer questions about locations and schedule routes, saving users time and improving efficiency. The 'Ask Maps' feature uses generative AI to combine map data with a conversational interface. The update also includes photorealistic 3D maps and immersive navigation mode for a more vivid driving experience.
+
+rss · Neowin · Mar 12, 14:46
+
+**Background**: Google Maps has become an essential tool for navigation and location services worldwide. Navigation upgrades typically involve improvements to map accuracy, routing algorithms, user interface, and the addition of new features. Automotive navigation systems rely on satellite data to determine position and provide turn-by-turn directions.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://mapsplatform.google.com/demos/3d-maps/">Photorealistic 3D Maps - Google Maps Platform</a></li>
+<li><a href="https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/">Google Maps Gets Chatty With a New Gemini-Powered... | WIRED</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-03-12/google-maps-offers-chat-search-with-ask-maps-ai-feature">Google Maps Adds ‘Ask Maps ’ AI Chat Feature for... - Bloomberg</a></li>
+<li><a href="https://support.google.com/maps/answer/3273406?hl=en&co=GENIE.Platform=Android">Use navigation in Google Maps - Android - Google Maps Help</a></li>
+<li><a href="https://www.geeksforgeeks.org/data-science/how-does-google-map-works/">How Does Google Map Works? - GeeksforGeeks</a></li>
+<li><a href="https://www.howtogeek.com/google-maps-navigation-is-about-to-change-in-a-big-way/">Google Maps navigation is about to change in a big way</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automotive_navigation_system">Automotive navigation system - Wikipedia</a></li>
+<li><a href="https://static.nhtsa.gov/odi/tsbs/2019/MC-10170184-9999.pdf">Premium Audio Navigation Map Update Process</a></li>
+<li><a href="https://kevinsautos.com/faq/can-i-upgrade-my-car-navigation-system.html">Can I upgrade my car navigation system? - kevinsautos.com</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Early reactions suggest users are excited about the potential of the AI chatbot to simplify trip planning. Some users are curious about the accuracy and reliability of the AI's responses. Others are looking forward to the immersive navigation features.
+
+**Tags**: `#Google Maps`, `#Navigation`, `#AI Chatbot`, `#Software Update`, `#Technology`
+
+---
+
+<a id="item-57"></a>
+## [Firefox on Windows 7 refuses to die, gets another six months of support](https://www.neowin.net/news/firefox-on-windows-7-refuses-to-die-gets-another-six-months-of-support/) ⭐️ 7.0/10
+
+Mozilla extends Firefox support for Windows 7 users for another six months.
+
+rss · Neowin · Mar 12, 12:10
+
+**Tags**: `#Firefox`, `#Windows 7`, `#Mozilla`, `#Software Support`, `#Operating Systems`
+
+---
+
+<a id="item-58"></a>
+## [Intel NPU Driver 1.30 Released For Linux](https://www.phoronix.com/news/Intel-NPU-Driver-Linux-1.30) ⭐️ 7.0/10
+
+Intel has released NPU Driver 1.30 for Linux. This update enhances user-space support for Intel's Neural Processing Unit (NPU) on Core Ultra System-on-Chips (SoCs). This release is important for Linux users with Intel Core Ultra SoCs as it signifies ongoing development and improved support for the NPU hardware. It allows for better utilization of the AI acceleration capabilities offered by the NPU. The Intel NPU Driver 1.30 focuses on advancing user-space support for Intel NPUs on Linux. It complements the Intel IVPU kernel accelerator driver already present in the mainline Linux kernel.
+
+rss · Phoronix · Mar 13, 10:01
+
+**Background**: Intel Core Ultra processors integrate a Neural Processing Unit (NPU) designed to accelerate AI workloads, offering improved performance and power efficiency. The NPU functions as a deep learning accelerator accessible via PCIe, catering to demanding deep learning applications. The Intel 4004 was the first CPU released by Intel.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html">New Intel® Core™ Ultra Series 3 Processors</a></li>
+<li><a href="https://arstechnica.com/gadgets/2026/03/intel-shores-up-its-desktop-cpu-lineup-with-boosted-core-ultra-200s-plus-chips/">Intel shores up its desktop CPU lineup with boosted Core ...</a></li>
+<li><a href="https://www.corsair.com/us/en/explorer/gamer/gaming-pcs/intel-core-ultra-270k-plus-and-250k-plus-everything-you-need-to-know/">Intel Core Ultra 7 270K Plus and Ultra 5 250K Plus ... - CORSAIR</a></li>
+<li><a href="https://intel.github.io/intel-npu-acceleration-library/npu.html">Quick overview of Intel’s Neural Processing Unit (NPU)</a></li>
+<li><a href="https://edc.intel.com/content/www/us/en/design/products/platforms/details/meteor-lake-u-p/core-ultra-processor-datasheet-volume-1-of-2/intel-neural-processing-unit-intel-npu/">Intel® Neural Processing Unit (Intel® NPU) - 008 - ID:792044 ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Intel_4004">Intel 4004</a></li>
+
+</ul>
+</details>
+
+**Discussion**: No significant community discussion was found in the provided context.
+
+**Tags**: `#Intel`, `#NPU`, `#Linux`, `#Driver`, `#Core Ultra`
+
+---
+
+<a id="item-59"></a>
+## [GNOME Infrastructure Now Battling Bots & AI Scrapers Using Fastly](https://www.phoronix.com/news/GNOME-GitLab-Fastly) ⭐️ 7.0/10
+
+GNOME is now utilizing Fastly to mitigate the impact of bots and AI scrapers on its GitLab infrastructure. This move aims to protect server resources and hosting budgets. This is important because it highlights the ongoing challenges open-source projects face in managing malicious bot traffic. It also showcases the solutions being adopted to maintain infrastructure stability and cost-effectiveness. GNOME's GitLab infrastructure previously used Anubis and GitHub redirection to combat bots. The addition of Fastly represents a further step in protecting their resources from excessive scraping.
+
+rss · Phoronix · Mar 13, 09:48
+
+**Background**: The GNOME project is a free and open-source software initiative focused on creating a user-friendly desktop environment. GitLab is a web-based DevOps platform that GNOME uses for managing their code and infrastructure. Bots and AI scrapers can negatively impact infrastructure by consuming resources and potentially disrupting services.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/GNOME_Project">GNOME Project</a></li>
+<li><a href="https://docs.gitlab.com/user/infrastructure/">Manage your infrastructure | GitLab Docs</a></li>
+<li><a href="https://www.cloudflare.com/the-net/building-cyber-resilience/regain-control-ai-crawlers/">Prevent AI crawlers & bots from scraping your site | Cloudflare</a></li>
+<li><a href="https://www.imperva.com/blog/navigating-the-new-era-of-ai-traffic-how-to-identify-and-block-ai-scrapers/">Navigating the New Era of AI Traffic: How to Identify and ...</a></li>
+<li><a href="https://datadome.co/learning-center/block-ai-bots/">How to Block AI bots, llms, scrapers and crawlers</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are no community discussions available at this time.
+
+**Tags**: `#GNOME`, `#GitLab`, `#Bots`, `#AI Scrapers`, `#Infrastructure`
+
+---
+
+<a id="item-60"></a>
+## [Intel Updates LLM-Scaler-vLLM With Support For More Qwen3/3.5 Models](https://www.phoronix.com/news/Intel-LLM-Scaler-vLLM-0.14-b8.1) ⭐️ 7.0/10
+
+Intel's LLM-Scaler project updates to support more Qwen3/3.5 models, enhancing large language model deployment on Arc Graphics hardware.
+
+rss · Phoronix · Mar 13, 09:38
+
+**Tags**: `#Intel`, `#LLM`, `#Arc Graphics`, `#AI`, `#Software Update`
+
+---
+
+<a id="item-61"></a>
+## [TrueNAS Connect Announced For Offering Enterprise Features Without The Hardware](https://www.phoronix.com/news/TrueNAS-Connect-2026) ⭐️ 7.0/10
+
+TrueNAS Connect has been announced, allowing access to enterprise storage features without requiring specific hardware.
+
+rss · Phoronix · Mar 13, 00:40
+
+**Tags**: `#TrueNAS`, `#Storage`, `#Enterprise`, `#iXsystems`, `#Software`
+
+---
+
+<a id="item-62"></a>
+## [Linux 7.0 cpupower Now Handles systemd Service Setting EPP, Intel P-State Turbo Boost](https://www.phoronix.com/news/Linux-7.0-More-cpupower) ⭐️ 7.0/10
+
+The cpupower tool in Linux 7.0 gains improvements for systemd service EPP setting and Intel P-State Turbo Boost handling.
+
+rss · Phoronix · Mar 12, 21:31
+
+**Tags**: `#Linux`, `#cpupower`, `#CPU`, `#Power Management`, `#Kernel`
+
+---
+
+<a id="item-63"></a>
+## [systemd 260-rc3 Released With AI Agents Documentation Added](https://www.phoronix.com/news/systemd-260-rc3) ⭐️ 7.0/10
+
+Systemd 260-rc3 has been released, including documentation for AI agents. This release candidate also incorporates other changes and improvements to the systemd suite. Systemd updates are crucial for the Linux ecosystem, and the addition of AI agent documentation highlights the project's evolution. This release helps developers integrate and manage AI agents within systemd environments. Systemd 260-rc3 follows rc1 which introduced the 'mstack' feature and the removal of System V service scripts support. This release continues the development cycle towards the final systemd 260 release.
+
+rss · Phoronix · Mar 12, 17:41
+
+**Background**: Systemd is a system and service manager for Linux operating systems, aiming to unify service configuration across distributions. It has become the dominant init system in Linux, replacing older systems like SysVinit. Systemd provides various daemons and utilities for managing processes, devices, networking, and logging.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Systemd">Systemd</a></li>
+<li><a href="https://www.baeldung.com/linux/systemd">What Is Systemd? | Baeldung on Linux</a></li>
+<li><a href="https://www.phoronix.com/news/systemd-260-rc1">systemd 260-rc1 Released: New "mstack" Feature, System V ...</a></li>
+<li><a href="https://www.freedesktop.org/software/systemd/man/devel/systemd.mstack.html">systemd.mstack - freedesktop.org</a></li>
+<li><a href="https://www.newsbreak.com/news/4511358949542-systemd-260-rc1-released-new-mstack-feature-system-v-service-scripts-no-longer-supported">systemd 260-rc1 Released: New "mstack" Feature, System V ...</a></li>
+<li><a href="https://www.cyberciti.biz/tips/linux-write-sys-v-init-script-to-start-stop-service.html">Linux: How to write a System V init script to start, stop ...</a></li>
+<li><a href="https://linux.die.net/man/8/service">service (8): run System V init script - Linux man page</a></li>
+
+</ul>
+</details>
+
+**Discussion**: No significant community discussion was found in the provided context.
+
+**Tags**: `#systemd`, `#Linux`, `#AI Agents`, `#Software Update`, `#Operating Systems`
+
+---
+
+<a id="item-64"></a>
+## [AMD ZenDNN 5.2 Brings A Major Redesign, AOCC 5.1 Recently Released](https://www.phoronix.com/news/AMD-ZenDNN-5.2-Released) ⭐️ 7.0/10
+
+AMD ZenDNN 5.2 introduces a major redesign with a next-generation runtime architecture for improved performance and scalability in deep neural networks.
+
+rss · Phoronix · Mar 12, 17:11
+
+**Tags**: `#AMD`, `#ZenDNN`, `#Deep Learning`, `#Neural Networks`, `#Software Update`
+
+---
+
+<a id="item-65"></a>
+## [Intel CPU Security Mitigation Costs From Haswell Through Panther Lake](https://www.phoronix.com/review/intel-panther-lake-mitigations) ⭐️ 7.0/10
+
+This article benchmarks the CPU security mitigation impact on Intel processors from Haswell to Panther Lake, analyzing performance differences with mitigations on and off.
+
+rss · Phoronix · Mar 12, 15:50
+
+**Tags**: `#Intel`, `#CPU`, `#Security Mitigations`, `#Performance`, `#Panther Lake`
+
+---
+
+<a id="item-66"></a>
+## [EndeavourOS Titan Released With Linux 6.19, Improved GPU Driver Integration](https://www.phoronix.com/news/EndeavourOS-Titan) ⭐️ 7.0/10
+
+EndeavourOS Titan is released with Linux 6.19 and improved GPU driver integration.
+
+rss · Phoronix · Mar 12, 15:38
+
+**Tags**: `#EndeavourOS`, `#Linux 6.19`, `#Arch Linux`, `#GPU Drivers`, `#Operating System`
+
+---
+
+<a id="item-67"></a>
+## [AMD HDR/Color Improvement For Their Linux Driver & KDE - Co-Developed By Claude Code](https://www.phoronix.com/news/AMD-More-HDR-KWin-Claude-Code) ⭐️ 7.0/10
+
+AMD is further improving HDR and color pipeline handling in their Linux driver, with enhancements pending for the AMDGPU driver and KDE's KWin.
+
+rss · Phoronix · Mar 12, 14:19
+
+**Tags**: `#AMD`, `#Linux`, `#HDR`, `#AMDGPU`, `#KDE`
+
+---
+
+<a id="item-68"></a>
+## [Radeon "RADV" Vulkan Driver Finally Lands VK_KHR_copy_memory_indirect](https://www.phoronix.com/news/RADV-KHR_copy_memory_indirect) ⭐️ 7.0/10
+
+The Radeon Vulkan driver "RADV" now supports the VK_KHR_copy_memory_indirect extension in Mesa 26.1.
+
+rss · Phoronix · Mar 12, 13:09
+
+**Tags**: `#Radeon`, `#Vulkan`, `#RADV`, `#Mesa`, `#Graphics Drivers`
+
+---
+
+<a id="item-69"></a>
+## [Mesa 26.0.2 Has Plenty Of Graphics Driver Fixes From Intel & RADV Vulkan To Old R300g](https://www.phoronix.com/news/Mesa-26.0.2-Released) ⭐️ 7.0/10
+
+Mesa 26.0.2, the latest bi-weekly stable point release, is now available. This release includes various graphics driver fixes, primarily benefiting Intel and RADV Vulkan drivers on Linux systems. This Mesa release is important because it improves the stability and performance of open-source graphics drivers on Linux. These fixes ensure a smoother experience for users relying on these drivers for gaming, development, and other graphical applications. Mesa 26.0.2 focuses on providing stable fixes for existing drivers, including improvements for Intel and RADV Vulkan. The release is part of the bi-weekly stable release cycle for Mesa, ensuring regular updates and bug fixes.
+
+rss · Phoronix · Mar 12, 12:28
+
+**Background**: Mesa is an open-source implementation of OpenGL, Vulkan, and other graphics API specifications. It translates these specifications to vendor-specific graphics hardware drivers, primarily on Linux systems. RADV is a Vulkan driver specifically designed for AMD GPUs and is included in most Linux distributions as part of the Mesa packages.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mesa_(computer_graphics)">Mesa (computer graphics) - Wikipedia</a></li>
+<li><a href="https://mesa3d.org/">Home — The Mesa 3D Graphics Library</a></li>
+<li><a href="https://docs.mesa3d.org/drivers/radv.html">RADV — The Mesa 3D Graphics Library latest documentation</a></li>
+<li><a href="https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-VULKAN.html">Vulkan® Driver Support - AMD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver">Free and open-source graphics device driver - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are no user comments available at this time.
+
+**Tags**: `#Mesa`, `#Graphics Drivers`, `#Linux`, `#Intel`, `#Vulkan`
+
+---
+
+<a id="item-70"></a>
+## [Qt Creator 19 IDE Released With Minimap, Built-In MCP Server For AI / LLMs](https://www.phoronix.com/news/Qt-Creator-19) ⭐️ 7.0/10
+
+Qt Creator 19, a cross-platform IDE, has been released with new features including a minimap and built-in MCP server for AI/LLMs.
+
+rss · Phoronix · Mar 12, 12:12
+
+**Tags**: `#Qt Creator`, `#IDE`, `#Software Development`, `#AI`, `#LLM`
+
+---
+
+<a id="item-71"></a>
+## [Calibre 9.5 E-Book Manager Released With Reading Progress Column](https://linuxiac.com/calibre-9-5-e-book-manager-released-with-reading-progress-column/) ⭐️ 7.0/10
+
+Calibre 9.5 introduces a reading progress column, enhances the e-book viewer, and improves annotation filtering. The update also includes various bug fixes. This update provides users with a more convenient way to track their reading progress within Calibre. The enhancements to the e-book viewer and annotation filtering further improve the overall reading experience. Calibre 9.5 is a software update for the Calibre e-book management suite. The main features include a reading progress column, e-book viewer enhancements, and annotation filtering improvements.
+
+rss · Linuxiac · Mar 13, 06:56
+
+**Background**: Calibre is a free and open-source e-book software suite that allows users to manage, convert, sync, and read e-books. It supports organizing e-books into virtual libraries and editing books in EPUB and AZW3 formats. Calibre also has a large collection of community-contributed plugins.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Calibre_(software)">Calibre (software)</a></li>
+<li><a href="https://calibre-ebook.com/">calibre - E-book management</a></li>
+<li><a href="https://calibre-ebook.com/download">calibre - Download calibre</a></li>
+<li><a href="https://windowsreport.com/best-ebook-management-tools/">5 Best Ebook Manager Software to Use in 2026 - Windows Report Best 5 eBook Manager - Epubor Book management software | Alfa Ebooks Manager Top 10 eBook Organizers - bookrunch 20 Free and eBook Collection Managers and Readers Apps for ... 5 Best Ebook Manager Software to Use in 2025 - UMA Technology</a></li>
+
+</ul>
+</details>
+
+**Discussion**: There are no relevant community discussions found in the search results.
+
+**Tags**: `#Calibre`, `#E-book Management`, `#Software Update`, `#Reading Progress`, `#E-book Viewer`
+
+---
+
+<a id="item-72"></a>
+## [APTUI Introduces a Modern TUI for Debian, Ubuntu, and Mint Packages](https://linuxiac.com/aptui-introduces-a-modern-tui-for-debian-ubuntu-and-mint-packages/) ⭐️ 7.0/10
+
+APTUI is a new open-source terminal UI designed to simplify APT package management on Debian, Ubuntu, and Linux Mint.
+
+rss · Linuxiac · Mar 12, 21:02
+
+**Tags**: `#APT`, `#TUI`, `#Debian`, `#Ubuntu`, `#Linux Mint`
+
+---
+
+<a id="item-73"></a>
+## [Igalia Introduces Moonforge Linux, a Yocto-Based OS for Embedded Devices](https://linuxiac.com/igalia-introduces-moonforge-linux-a-yocto-based-os-for-embedded-devices/) ⭐️ 7.0/10
+
+Igalia's Moonforge Linux is a new open-source, Yocto-based framework designed to simplify embedded Linux system development and maintenance.
+
+rss · Linuxiac · Mar 12, 17:28
+
+**Tags**: `#Linux`, `#Embedded Systems`, `#Yocto`, `#Open Source`, `#Igalia`
+
+---
+
+<a id="item-74"></a>
+## [EndeavourOS Titan Launches With Linux 6.19, New GPU Driver Tool](https://linuxiac.com/endeavouros-titan-launches-with-linux-6-19/) ⭐️ 7.0/10
+
+EndeavourOS Titan is released featuring Linux kernel 6.19, improved hardware detection, and GPU driver enhancements.
+
+rss · Linuxiac · Mar 12, 16:12
+
+**Tags**: `#EndeavourOS`, `#Linux 6.19`, `#Arch Linux`, `#GPU Drivers`, `#Titan`
+
+---
+
+<a id="item-75"></a>
+## [Fwupd 2.1.1 Released With AMD Platform Secure Boot Support](https://linuxiac.com/fwupd-2-1-1-released-with-amd-platform-secure-boot-support/) ⭐️ 7.0/10
+
+Fwupd 2.1.1 introduces security enhancements, AMD Platform Secure Boot support, and expanded hardware compatibility for Linux.
+
+rss · Linuxiac · Mar 12, 12:17
+
+**Tags**: `#fwupd`, `#Linux`, `#AMD`, `#Secure Boot`, `#Firmware`
+
+---
+
+<a id="item-76"></a>
+## [Rep. Finke Was Right: Age-Gating Isn’t About Kids, It’s About Control](https://www.eff.org/deeplinks/2026/03/rep-finke-was-right-age-gating-isnt-about-kids-its-about-control) ⭐️ 7.0/10
+
+The article argues that age-gating proposals, like Minnesota's HF1434, are not truly about protecting children but about controlling online speech.
+
+rss · EFF Updates · Mar 12, 19:32
+
+**Tags**: `#age-gating`, `#internet freedom`, `#First Amendment`, `#online safety`, `#censorship`
+
+---
+
+<a id="item-77"></a>
+## [($) Practical uses for a null filesystem](https://lwn.net/Articles/1062163/) ⭐️ 7.0/10
+
+The upcoming Linux Kernel 7.0 will feature the nullfs filesystem. This empty filesystem aims to simplify init programs and improve kernel thread isolation. The nullfs filesystem offers a novel approach to enhance system security and resource management. By providing an empty filesystem, it can be used to isolate processes and prevent unwanted access to sensitive data. Nullfs is a single-instance filesystem marked with SB_NOUSER, SB_I_NOEXEC, and SB_I_NODEV, featuring an immutable empty root directory. It can be used to overmount other directories, effectively hiding their contents without additional protection.
+
+rss · LWN.net · Mar 12, 14:58
+
+**Background**: In Unix-like operating systems, init is the first process started during the boot process and continues running until the system is shut down. Kernel thread isolation is a security mechanism to prevent kernel threads from accessing isolated CPUs or sensitive data. Filesystems are a fundamental part of operating systems, providing a way to organize and access files.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.phoronix.com/news/Linux-7.0-NULLFS-Namespace">NULLFS & OPEN_TREE_NAMESPACE Features Merged For Linux 7.0</a></li>
+<li><a href="https://www.webpronews.com/linux-7-0-gets-a-phantom-filesystem-inside-the-nullfs-namespace-revolution-that-could-reshape-container-security/">Linux 7.0 Gets a Phantom Filesystem: Inside the NULLFS ...</a></li>
+<li><a href="https://github.com/abbbi/nullfsvfs">a virtual black hole file system that behaves like /dev/null Linux 7.0 Gets a Phantom Filesystem: Inside the NULLFS ... How to Use `nullfs` for Jail Filesystem Sharing on FreeBSD ... nullfs: a pseudo-filesystem for mounting directories nullfs - man.freebsd.org GitHub - xrgtn/nullfs: FUSE nullfs drivers · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Init">init - Wikipedia</a></li>
+<li><a href="https://www.geeksforgeeks.org/linux-unix/init-command-in-linux-with-examples/">init command in Linux with examples - GeeksforGeeks</a></li>
+<li><a href="https://commandmasters.com/commands/init-linux/">How to Use the 'init' Command (with Examples)</a></li>
+<li><a href="https://unix.stackexchange.com/questions/787759/how-to-ensure-kernel-threads-do-not-access-isolated-cpu">how to ensure kernel threads do not access isolated CPU</a></li>
+<li><a href="https://lwn.net/Articles/816298/">A full task-isolation mode for the kernel - LWN.net</a></li>
+<li><a href="https://www.suse.com/c/cpu-isolation-practical-example-part-5/">CPU Isolation – A practical example – by SUSE Labs (part 5)</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The introduction of nullfs has sparked discussions about its potential use cases in containerization and sandboxing. Some users are exploring its application in performance testing and creating virtual black hole file systems. Others are interested in its ability to hide directory contents for security purposes.
+
+**Tags**: `#kernel`, `#filesystem`, `#nullfs`, `#init`, `#isolation`
+
+---
+
+<a id="item-78"></a>
+## [Two stable kernels for Thursday](https://lwn.net/Articles/1062575/) ⭐️ 7.0/10
+
+Sasha Levin announced the release of stable kernels 6.19.7 and 6.18.17, urging users to upgrade for important fixes.
+
+rss · LWN.net · Mar 12, 13:19
+
+**Tags**: `#kernel`, `#stable release`, `#Linux`, `#software update`, `#security`
 
 ---
