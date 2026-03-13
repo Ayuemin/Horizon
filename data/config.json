@@ -2,7 +2,7 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "google/gemini-2.0-flash",
+    "model": "gpt-4o-mini",
     "api_key_env": "NANOGPT_API_KEY",
     "base_url": "https://nano-gpt.com/api/v1",
     "languages": ["ru"]
