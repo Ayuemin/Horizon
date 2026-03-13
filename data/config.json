@@ -23,7 +23,7 @@
       { "name": "Linux Today", "url": "https://www.linuxtoday.com/feed/" }
     ],
     "reddit": { 
-      "enabled": true,
+      "enabled": false,
       "subreddits": [
         { "subreddit": "opensource" },
         { "subreddit": "selfhosted" },
