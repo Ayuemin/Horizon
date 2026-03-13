@@ -20,7 +20,8 @@
       { "name": "LWN.net", "url": "https://lwn.net/headlines/newrss" },
       { "name": "DebugPoint", "url": "https://www.debugpoint.com/feed/" }
     ],
-      "limit_per_sub": 10
+    "reddit": {
+      "enabled": false
     },
     "hackernews": { 
       "enabled": true, 
