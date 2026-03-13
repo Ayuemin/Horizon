@@ -2,16 +2,16 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "gpt-4o-mini",
+    "model": "google/gemini-2.0-flash",
     "api_key_env": "NANOGPT_API_KEY",
     "base_url": "https://nano-gpt.com/api/v1",
     "languages": ["ru"]
   },
   "sources": {
     "rss": [
-      { "name": "AlternativeTo (Аналоги софта)", "url": "https://alternativeto.net/news/feed/" },
-      { "name": "BleepingComputer (Безопасность)", "url": "https://www.bleepingcomputer.com/feed/" },
-      { "name": "Neowin (Софт и Windows)", "url": "https://www.neowin.net/news/rss/" },
+      { "name": "AlternativeTo", "url": "https://alternativeto.net/news/feed/" },
+      { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
+      { "name": "Neowin", "url": "https://www.neowin.net/news/rss/" },
       { "name": "It's FOSS", "url": "https://itsfoss.com/feed/" },
       { "name": "9to5Linux", "url": "https://9to5linux.com/feed" },
       { "name": "Phoronix", "url": "https://www.phoronix.com/phoronix-rss.php" },
@@ -25,12 +25,12 @@
     "reddit": { 
       "enabled": true,
       "subreddits": [
-        "opensource", 
-        "selfhosted", 
-        "fossdroid", 
-        "commandline", 
-        "privacy", 
-        "linuxapps"
+        { "name": "opensource" },
+        { "name": "selfhosted" },
+        { "name": "fossdroid" },
+        { "name": "commandline" },
+        { "name": "privacy" },
+        { "name": "linuxapps" }
       ],
       "limit_per_sub": 10
     },
