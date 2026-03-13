@@ -26,14 +26,7 @@ LABELS = {
         "references": "References",
         "tags": "Tags",
         "empty_body": (
-            "No significant developments today. This might indicate:\n"
-            "- A quiet day in your tracked sources\n"
-            "- The AI score threshold is too high\n"
-            "- Your information sources need expansion\n\n"
-            "Consider:\n"
-            "1. Lowering the `ai_score_threshold` in config.json\n"
-            "2. Adding more diverse information sources\n"
-            "3. Checking if the AI model is working correctly\n"
+            "No significant developments today.\n"
         ),
     },
     "zh": {
@@ -44,16 +37,22 @@ LABELS = {
         "references": "参考链接",
         "tags": "标签",
         "empty_body": (
-            "今日暂无重要动态，可能原因：\n"
-            "- 今天关注的信息源较平静\n"
-            "- AI 评分阈值设置过高\n"
-            "- 信息源种类有待扩充\n\n"
-            "建议：\n"
-            "1. 在 config.json 中降低 `ai_score_threshold`\n"
-            "2. 添加更多多样化的信息源\n"
-            "3. 检查 AI 模型是否正常工作\n"
+            "今日暂无重要动态\n"
         ),
     },
+    "ru": {
+        "header": "КликХак: Свежий Open Source",
+        "source": "Источник",
+        "background": "Контекст",
+        "discussion": "Обсуждение",
+        "references": "Ссылки",
+        "tags": "Теги",
+        "empty_body": (
+            "Сегодня нет важных новостей, прошедших фильтр.\n"
+            "- Затишье в отслеживаемых источниках\n"
+            "- Слишком высокий порог оценки AI (попробуйте снизить ai_score_threshold)\n"
+        ),
+    }
 }
 
 
@@ -70,19 +69,6 @@ class DailySummarizer:
         total_fetched: int,
         language: str = "en",
     ) -> str:
-        """Generate daily summary in Markdown format.
-
-        Items are rendered in score-descending order (already sorted by orchestrator).
-
-        Args:
-            items: High-scoring content items (already enriched)
-            date: Date string (YYYY-MM-DD)
-            total_fetched: Total number of items fetched before filtering
-            language: Output language, either "en" or "zh"
-
-        Returns:
-            str: Markdown formatted summary
-        """
         labels = LABELS.get(language, LABELS["en"])
 
         if not items:
@@ -90,18 +76,17 @@ class DailySummarizer:
 
         header = (
             f"# {labels['header']} - {date}\n\n"
-            f"> From {total_fetched} items, {len(items)} important content pieces were selected\n\n"
+            f"> Из {total_fetched} найденных новостей ИИ отобрал {len(items)} самых важных\n\n"
             "---\n\n"
         )
 
-        # TOC
         toc_entries = []
         for i, item in enumerate(items):
             t = (item.metadata.get(f"title_{language}") or item.title).replace("[", "(").replace("]", ")")
             if language == "zh":
                 t = _pangu(t)
             score = item.ai_score or "?"
-            toc_entries.append(f"{i + 1}. [{t}](#item-{i + 1}) \u2b50\ufe0f {score}/10")
+            toc_entries.append(f"{i + 1}. [{t}](#item-{i + 1}) ⭐️ {score}/10")
         toc = "\n".join(toc_entries) + "\n\n---\n\n"
 
         parts = [self._format_item(item, labels, language, i + 1) for i, item in enumerate(items)]
@@ -109,7 +94,6 @@ class DailySummarizer:
         return header + toc + "".join(parts)
 
     def _format_item(self, item: ContentItem, labels: dict, language: str, index: int) -> str:
-        """Format a single ContentItem into Markdown."""
         title = (
             item.metadata.get(f"title_{language}")
             or item.title
@@ -137,7 +121,6 @@ class DailySummarizer:
             background = _pangu(background)
             discussion = _pangu(discussion)
 
-        # Source line with parts joined by " · ", link appended at end
         source_type = item.source_type.value
         source_parts = [source_type]
         if meta.get("subreddit"):
@@ -149,11 +132,11 @@ class DailySummarizer:
         if item.published_at:
             day = item.published_at.strftime("%d").lstrip("0")
             source_parts.append(item.published_at.strftime(f"%b {day}, %H:%M"))
-        source_line = " \u00b7 ".join(source_parts)  # ·
+        source_line = " · ".join(source_parts)
 
         lines = [
             f'<a id="item-{index}"></a>',
-            f"## [{title}]({url}) \u2b50\ufe0f {score}/10",  # ⭐️
+            f"## [{title}]({url}) ⭐️ {score}/10",
             "",
             summary,
             "",
@@ -187,9 +170,8 @@ class DailySummarizer:
         return "\n".join(lines) + "\n\n"
 
     def _generate_empty_summary(self, date: str, total_fetched: int, labels: dict) -> str:
-        """Generate summary when no high-scoring items were found."""
         return (
             f"# {labels['header']} - {date}\n\n"
-            f"> Analyzed {total_fetched} items, but none met the importance threshold.\n\n"
+            f"> Найдено {total_fetched} новостей, но ни одна не прошла фильтр.\n\n"
             + labels["empty_body"]
         )
