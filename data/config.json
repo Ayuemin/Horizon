@@ -13,25 +13,13 @@
       { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
       { "name": "Neowin", "url": "https://www.neowin.net/news/rss/" },
       { "name": "It's FOSS", "url": "https://itsfoss.com/feed/" },
-      { "name": "9to5Linux", "url": "https://9to5linux.com/feed" },
       { "name": "Phoronix", "url": "https://www.phoronix.com/phoronix-rss.php" },
       { "name": "Linuxiac", "url": "https://linuxiac.com/feed/" },
       { "name": "F-Droid", "url": "https://f-droid.org/en/feed.xml" },
       { "name": "EFF Updates", "url": "https://www.eff.org/rss/updates.xml" },
       { "name": "LWN.net", "url": "https://lwn.net/headlines/newrss" },
-      { "name": "DebugPoint", "url": "https://www.debugpoint.com/feed/" },
-      { "name": "Linux Today", "url": "https://www.linuxtoday.com/feed/" }
+      { "name": "DebugPoint", "url": "https://www.debugpoint.com/feed/" }
     ],
-    "reddit": { 
-      "enabled": false,
-      "subreddits": [
-        { "subreddit": "opensource" },
-        { "subreddit": "selfhosted" },
-        { "subreddit": "fossdroid" },
-        { "subreddit": "commandline" },
-        { "subreddit": "privacy" },
-        { "subreddit": "linuxapps" }
-      ],
       "limit_per_sub": 10
     },
     "hackernews": { 
