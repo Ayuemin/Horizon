@@ -1,5 +1,3 @@
-"""Content analysis using AI."""
-
 import json
 import re
 from typing import List, Optional
@@ -12,42 +10,28 @@ from ..models import ContentItem
 
 
 class ContentAnalyzer:
-    """Analyzes content items using AI to determine importance."""
-
     def __init__(self, ai_client: AIClient):
         self.client = ai_client
 
     @staticmethod
     def _parse_json_response(response: str) -> Optional[dict]:
-        """Try multiple strategies to extract a JSON object from an AI response.
-
-        Returns the parsed dict, or None if all strategies fail.
-        """
         text = response.strip()
-
-        # Strategy 1: direct parse
         try:
             return json.loads(text)
         except (json.JSONDecodeError, ValueError):
             pass
-
-        # Strategy 2: extract from ```json ... ``` code block
         if "```json" in text:
             try:
                 json_str = text.split("```json")[1].split("```")[0].strip()
                 return json.loads(json_str)
             except (json.JSONDecodeError, ValueError, IndexError):
                 pass
-
-        # Strategy 3: extract from ``` ... ``` code block
         if "```" in text:
             try:
                 json_str = text.split("```")[1].split("```")[0].strip()
                 return json.loads(json_str)
             except (json.JSONDecodeError, ValueError, IndexError):
                 pass
-
-        # Strategy 4: find the first { ... } block using brace matching
         start = text.find("{")
         if start != -1:
             depth = 0
@@ -61,24 +45,16 @@ class ContentAnalyzer:
                             return json.loads(text[start : i + 1])
                         except (json.JSONDecodeError, ValueError):
                             break
-
-        # Strategy 5: regex extraction as last resort
         match = re.search(r"\{[\s\S]*\}", text)
         if match:
             try:
                 return json.loads(match.group())
             except (json.JSONDecodeError, ValueError):
                 pass
-
         return None
 
-    async def analyze_batch(
-        self,
-        items: List[ContentItem],
-        batch_size: int = 10
-    ) -> List[ContentItem]:
+    async def analyze_batch(self, items: List[ContentItem], batch_size: int = 10) -> List[ContentItem]:
         analyzed_items = []
-
         with Progress(
             SpinnerColumn(),
             TextColumn("[progress.description]{task.description}"),
@@ -87,7 +63,6 @@ class ContentAnalyzer:
             transient=True,
         ) as progress:
             task = progress.add_task("Analyzing", total=len(items))
-
             for i in range(0, len(items), batch_size):
                 batch = items[i:i + batch_size]
                 for item in batch:
@@ -101,23 +76,12 @@ class ContentAnalyzer:
                         item.ai_summary = item.title
                         analyzed_items.append(item)
                     progress.advance(task)
-
         return analyzed_items
 
-    @retry(
-        stop=stop_after_attempt(3),
-        wait=wait_exponential(min=2, max=10)
-    )
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
     async def _analyze_item(self, item: ContentItem) -> None:
-        """Analyze a single content item.
-
-        Args:
-            item: Content item to analyze (modified in-place)
-        """
-        # Prepare content section
         content_section = ""
         if item.content:
-            # Split off comments if present
             content_text = item.content
             if "--- Top Comments ---" in content_text:
                 main, comments_part = content_text.split("--- Top Comments ---", 1)
@@ -125,7 +89,6 @@ class ContentAnalyzer:
             else:
                 content_section = f"Content: {content_text[:1000]}"
 
-        # Prepare discussion section (comments, engagement)
         discussion_parts = []
         if item.content and "--- Top Comments ---" in item.content:
             comments_part = item.content.split("--- Top Comments ---", 1)[1]
@@ -158,7 +121,6 @@ class ContentAnalyzer:
 
         discussion_section = "\n".join(discussion_parts) if discussion_parts else ""
 
-        # Generate user prompt
         user_prompt = CONTENT_ANALYSIS_USER.format(
             title=item.title,
             source=f"{item.source_type.value}",
@@ -168,24 +130,27 @@ class ContentAnalyzer:
             discussion_section=discussion_section
         )
 
-        # Get AI completion
+        # --- ЖЕЛЕЗНЫЙ КОСТЫЛЬ ДЛЯ РУССКОГО ЯЗЫКА ---
+        russian_instruction = (
+            "\n\nCRITICAL MANDATORY INSTRUCTION: You MUST output all text values in the JSON "
+            "(summary, reason, tags) STRICTLY IN THE RUSSIAN LANGUAGE. "
+            "Do not use English for the summary or reason. TRANSLATE EVERYTHING TO RUSSIAN."
+        )
+
         response = await self.client.complete(
-            system=CONTENT_ANALYSIS_SYSTEM,
+            system=CONTENT_ANALYSIS_SYSTEM + russian_instruction,
             user=user_prompt,
             temperature=0.3
         )
 
-        # Parse JSON response with robust fallback
         result = self._parse_json_response(response)
         if result is None:
-            print(f"Warning: could not parse analysis response for {item.id}, using defaults")
             item.ai_score = 0.0
             item.ai_reason = "Analysis response parse failed"
             item.ai_summary = item.title
             item.ai_tags = []
             return
 
-        # Update item with analysis results
         item.ai_score = float(result.get("score", 0))
         item.ai_reason = result.get("reason", "")
         item.ai_summary = result.get("summary", item.title)
