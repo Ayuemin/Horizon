@@ -25,12 +25,12 @@
     "reddit": { 
       "enabled": true,
       "subreddits": [
-        { "name": "opensource" },
-        { "name": "selfhosted" },
-        { "name": "fossdroid" },
-        { "name": "commandline" },
-        { "name": "privacy" },
-        { "name": "linuxapps" }
+        { "subreddit": "opensource" },
+        { "subreddit": "selfhosted" },
+        { "subreddit": "fossdroid" },
+        { "subreddit": "commandline" },
+        { "subreddit": "privacy" },
+        { "subreddit": "linuxapps" }
       ],
       "limit_per_sub": 10
     },
