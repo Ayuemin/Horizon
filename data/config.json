@@ -9,31 +9,44 @@
   },
   "sources": {
     "rss": [
+      { "name": "AlternativeTo (Аналоги софта)", "url": "https://alternativeto.net/news/feed/" },
+      { "name": "BleepingComputer (Безопасность)", "url": "https://www.bleepingcomputer.com/feed/" },
+      { "name": "Neowin (Софт и Windows)", "url": "https://www.neowin.net/news/rss/" },
       { "name": "It's FOSS", "url": "https://itsfoss.com/feed/" },
       { "name": "9to5Linux", "url": "https://9to5linux.com/feed" },
       { "name": "Phoronix", "url": "https://www.phoronix.com/phoronix-rss.php" },
+      { "name": "Linuxiac", "url": "https://linuxiac.com/feed/" },
+      { "name": "F-Droid", "url": "https://f-droid.org/en/feed.xml" },
+      { "name": "EFF Updates", "url": "https://www.eff.org/rss/updates.xml" },
+      { "name": "LWN.net", "url": "https://lwn.net/headlines/newrss" },
       { "name": "DebugPoint", "url": "https://www.debugpoint.com/feed/" },
-      { "name": "OMG! Ubuntu!", "url": "https://www.omgubuntu.co.uk/feed" },
       { "name": "Linux Today", "url": "https://www.linuxtoday.com/feed/" }
     ],
     "reddit": { 
       "enabled": true,
-      "subreddits": ["opensource", "selfhosted", "fossdroid"],
+      "subreddits": [
+        "opensource", 
+        "selfhosted", 
+        "fossdroid", 
+        "commandline", 
+        "privacy", 
+        "linuxapps"
+      ],
       "limit_per_sub": 10
     },
     "hackernews": { 
       "enabled": true, 
-      "fetch_top_stories": 20, 
-      "min_score": 200 
+      "fetch_top_stories": 25, 
+      "min_score": 150 
     },
     "telegram": { "enabled": false }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
+    "ai_score_threshold": 6.5,
     "time_window_hours": 24
   },
   "summary": {
     "language": "ru",
-    "detail_level": "high"
+    "detail_level": "medium"
   }
 }
